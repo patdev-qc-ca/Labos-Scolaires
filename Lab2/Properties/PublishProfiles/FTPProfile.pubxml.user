@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9AR3KxNvkkCvIbP2I11K1gAAAAACAAAAAAADZgAAwAAAABAAAAB1SPfhT0UZ/yWAAQt/GjT7AAAAAASAAACgAAAAEAAAAKSSXWgAistp8ghlRyS5qFUgAAAAI2X5t6k2aD0X4LozbQpJmYeCrvzqwjf9Uv3vQux1ByQUAAAAQ8IszcNicXzTDwByY0oQkok/uZA=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://sqlinfocg.cegepgranby.qc.ca/Equipe4Lab2</_PublishTargetUrl>
+    <History>False|2023-05-29T15:33:12.5785440Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

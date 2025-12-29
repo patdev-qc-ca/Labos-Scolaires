@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    
+    <table>
+        <tr> Xavier et Patrice présentent laboratoire 2</tr>
+        <td>
+            <form asp-controller="Administrateur" asp-action="Creerutilisateur">
+                <p>votre nom:</p>
+                <input type="text" name="Nom" value="" />
+                <input type="submit" name="inscrire" value="valider" />
+            </form>
+        </td>
+    </table>
+<table>
+    <td>
+        <form asp-action="Client">
+            <input type="submit" name="action" value="Consulter son panier" />
+        </form>
+    </td>
+</div>
+    </table>
