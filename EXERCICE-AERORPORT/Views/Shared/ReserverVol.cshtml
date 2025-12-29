@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Bienvenue à l'aéroport";
+}
+<style>
+
+    form div {
+        display: inline-block;
+    }
+
+        form div label {
+            width: 190px;
+            height: 25px;
+            border-spacing: 3px;
+        }
+
+        form div button {
+            width: 190px;
+            height: 27px;
+            border-spacing: 3px;
+        }
+</style>
+<div class="container">
+    <div class="row">
+        <h1>Execice de programmation Web ASP.NET</h1>
+        <h2>Exercice 1 Aéroport</h2>
+
+        <div>
+            <form asp-controller="CreerPassager">
+                <div>
+                    <h3>Réserver un billet</h3>
+                    <button type="submit">Reserver un vol</button>
+                </div>
+            </form>
+        </div>
+        <div>
+ 
