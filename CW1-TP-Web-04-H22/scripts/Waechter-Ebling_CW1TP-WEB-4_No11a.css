@@ -1,0 +1,25 @@
+﻿body{
+    padding:0px;
+    margin: 0px;
+}
+.divi1 {
+    width: 700px;
+    border-color :darkgreen ;
+    border-width: 3px;
+    border-style: double;
+ 
+}
+.i_h1
+{
+   text-align:center;    
+}
+.i_h2{
+    /*
+    calcul marge gauche:
+    (700-450)/2 =125*/
+   margin-left: 125px;
+}
+h1
+{
+    width:450px;
+}

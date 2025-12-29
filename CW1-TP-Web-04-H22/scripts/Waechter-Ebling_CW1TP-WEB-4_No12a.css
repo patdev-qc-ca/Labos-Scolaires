@@ -1,0 +1,22 @@
+﻿/*
+12.	A) En écrivant qu’une seule fois la déclaration avec la propriété 
+« background-image » et en utilisant obligatoirement la propriété : « background-size »,
+une seule fois également, comment feriez-vous pour qu’un fichier image se répète 5 fois 
+horizontalement à l’intérieur de  <body>.
+ Supposons que notre fichier image se nomme : TonPrénom-image.jpg.
+ Remplacez  TonPrénom  par votre prénom réel à vous.  
+ Entrez le code complet CSS à l’intérieur du sélecteur : body.  
+ La dimension des 5 images doit être identique.
+ ( Ajustez la dimension de l’encadré qui suit, au contenu nécessaire pour écrire votre réponse.  Retirez l’espace inutile ).
+
+*/
+body{
+    padding:0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position:top; 
+    background-image: url("../images/Patrice-image.jpg");
+    background-size: 20%;
+    background-repeat:repeat-x  ;
+    
+}

@@ -1,0 +1,73 @@
+body {
+    width:99%;
+    height:100%;
+}
+/*
+1.4.	Le conteneur  <div> doit être de dimension suffisamment grande pour contenir tout le contenu écrit.
+1.5.	La dimension du conteneur  <div> doit être adapté au contenu.  Cela signifie qu’il ne doit pas être plus grand inutilement.  Juste la grandeur nécessaire.
+1.6.	Donc, pour réaliser les deux numéros précédents, il est fort possible que vous deviez effec-tuer du tâtonnement avec essais-erreurs, et ce, jusqu’à ce que vous atteignez la bonne di-mension.
+1.7.	Insérez un arrière-plan de couleur verte (très très pâle) à l’intérieur du conteneur du grand <div>
+1.7.1.	L’arrière-plan doit être suffisamment pâle pour que l’on puisse lire aisément le contenu.
+*/
+.divi1 {
+    position: relative;
+    background-color: #bfffbb;
+    width: 500px;
+    border-width: 4px;
+    border-style: solid;
+/*
+1.9.	Encadrez le  grand <div> d’une bordure 
+1.9.1.	rouge bourgogne, 
+1.9.2.	d’une épaisseur de 4 pixels, 
+1.9.3.	d’une bordure de type ligne continue 
+*/ 
+border-color: #9b0606;
+    padding: 20px;
+    margin: 4px;
+}
+h1{
+    color:#2F528F;
+/*    text-decoration:underline;*/
+}
+h2{
+    color:#ED7D31;
+}
+h3{
+    color:#00B050;
+}
+h4{
+    color:#7030A0;
+}
+ol{
+    color:#0000FF;
+}
+#i_p1{
+    color:#FF0000;
+}
+/*
+1.8.	Coloriez le contenu écrit du 2ième paragraphe de couleur pourpre.
+Attention !  Seul le contenu écrit du 2ième paragraphe doit être colorié de couleur pourpre; 
+pas le 1er paragraphe.
+*/
+#i_p2{
+/*
+1.10.	Encadrez le 2ième paragraphe d’une bordure 
+1.10.1.	bleue, 
+1.10.2.	d’une épaisseur de 3 pixels, 
+1.10.3.	d’une bordure faite de petits traits.
+1.11.	Insérez une marge intérieure de 6 pixels au 2ième paragraphe
+1.12.	Insérez une marge extérieure de 9 pixels au 2ième paragraphe
+*/
+    border-color:#0000FE;
+    border-width:3px;
+    border-style:dashed;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-left:9px;
+    margin-bottom:9px;
+    margin-top:9px;
+    margin-right:9px;
+    color:#7030A0;
+}

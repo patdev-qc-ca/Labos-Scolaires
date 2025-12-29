@@ -1,0 +1,76 @@
+body {
+    padding:0;
+    margin:0;
+    width:99%;
+    height:100%;
+}
+.divi1{
+    position:relative;
+    background-color: #bfffbb;
+    width:500px ;
+    border-width:4px;
+    border-style:solid;
+    border-color:#9b0606;
+    padding: 20px;
+    margin:4px;
+}
+.divi2
+{/* 6.5.	Insérez une bordure autour du conteneur enfant (contenant la liste à puces)  .divi2*/
+    position:relative;
+    border:solid;/*6.5.1.	Ligne continue*/
+    border-color: #82e3ea;/*6.5.2.	De couleur bleu ciel avec le mode hexadécimal ( # )*/
+    border-width:3.5px;/*6.5.2.1.	d’une épaisseur de 3,5 pixels*/
+    /*6.7.	Dans le 1er <div> enfant (voir # 6.2.), soit le  .divi2, 
+    insérez en mode « Arrière-Plan », l’image ou la photo que vous êtes allés chercher au No précédent.*/
+    background-image:url("../images/MaRegionNatale.jpg");
+    /*6.8.	En « arrière-plan », l’image ou la photo ne doit pas se répéter. 
+      6.9.	L’image doit avoir une dimension aussi grande que son  <div>  parent  lui-même.*/
+    background-size:100% ;
+    background-repeat: no-repeat;
+}
+.divi3
+{
+/*
+6.11.	 effectuez un arrière-plan de couleurs dégradées:
+6.11.1.	 appliquez un dégradé de type :  Circulaire
+6.11.2.	avec les couleurs pâles : jaune, violet, vert
+*/
+background: radial-gradient(circle,yellow,violet,green);
+/*6.11.4.	Avec une transition de couleurs de : 15 % sur le jaune, de 35 % sur le violet et 55 % sur le vert */
+background: radial-gradient(circle,yellow 15%,violet 35%,green 55%);
+/*6.11.3.	Le dégradé va toucher le côté le plus proche de son centre.  	 Je veux voir ce code.*/
+background: radial-gradient(closet-side at 8% 15%,yellow,violet 35%,green 55%);
+}
+.Couleur {
+    color: #7030A0;
+}
+h1{
+    color:#2F528F;
+/*    text-decoration:underline;*/
+}
+h2{
+    color:#ED7D31;
+}
+h3{
+    color:#00B050;
+}
+
+ol{
+    color:#0000FF;
+}
+#i_p1{
+    color:#FF0000;
+}
+#i_p2{
+    border-color:#0000FE;
+    border-width:3px;
+    border-style:dashed;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-left:9px;
+    margin-bottom:9px;
+    margin-top:9px;
+    margin-right:9px;
+}

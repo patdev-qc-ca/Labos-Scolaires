@@ -1,0 +1,12 @@
+body {
+    width: 99%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+    }
+
+ol{
+     list-style: none;
+    color: #0000FF;
+}

@@ -1,0 +1,85 @@
+body {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 97%;
+    position: absolute;
+}
+.DivP{
+
+    BORDER: 3px #000000 solid;/*  5.7.3.	Donnez aux éléments <div> et aux deux paragraphes, des bordures :*/
+    border-top-left-radius: 15px;/*5.7.3.1.	d’une épaisseur de 3 pixels, noire, de style solide.*/
+    border-bottom-left-radius: 15px;/*5.7.3.2.	Avec une courbure de 15 pixels sur les deux coins à gauche.*/
+}
+.divi1{
+    left:36%;
+    position:relative;
+    background-color: #bfffbb;
+    width:500px ;
+ /*    border-width:4px;
+    border-style:solid;
+   border-color:#9b0606;*/
+    padding: 20px;
+    margin:4px;
+/*5.5.	À l’aide de déclarations CSS, redimensionnez  le <div> en ajustant les dimensions au nou-veau contenu réduit 
+    (vous venez de retirer la liste à puces).*/    
+    position: absolute;/**/
+ /*5.6.	À l’aide de la combinaison des propriétés CSS : « position »  et  « droit, gauche, haut, bas »*/
+    top:0px; /*    5.6.1.	Ce <div> doit s’afficher dans le coin supérieur droit de l’écran ( du <body> ),  */ 
+    right:4px; /*  à 3 pixels de la droite et à 4 pixels du haut.    */
+    left:auto;
+    /*    5.7.1.	Augmenter moyennement la superficie du <div>, assurez-vous de ne pas dépasser les dimensions de l’écran de votre Portable.
+    Cette augmentation moyenne, au-delà des besoins d’affichage du contenu écrit, nous servira à vérifier visuellement une programmation
+    à venir dans les numéros ultérieurs.
+    Agrandissez, mais sans que votre <div> prenne toute la largeur de <body>.
+    Faites en sorte que la hauteur ne dépasse pas non plus la hauteur de votre écran.
+    */
+    width:60%;
+    height:60%;
+}
+h1{
+    color:#2F528F;
+/*    text-decoration:underline;*/
+}
+h2{
+    color:#ED7D31;
+}
+h3{
+    color:#00B050;
+}
+
+ol{
+    color:#0000FF;
+}
+#i_p1{
+    color:#FF0000;
+    font-weight: bolder;/*5.7.4.	Le contenu du 1er paragraphe doit être en gras fort via une programmation CSS.*/
+}
+.Couleur 
+{
+    color:#7030A0;
+}
+#i_p2{
+ /* border-color:#0000FE;
+    border-width:3px;
+    border-style:dashed;
+
+ */
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-left:9px;
+    margin-bottom:9px;
+    margin-top:9px;
+    margin-right:9px;
+   /*color:#7030A0; */
+   /* 
+      5.7.2.	À l’intérieur du conteneur <div>, positionnez le 2ième paragraphe
+      dans le coin inférieur gauche à 10 pixels du bas et à 2 pixel de la bordure gauche du <div>.
+    */
+    position: absolute;
+    left: 1px;
+    bottom: -7px;
+
+}

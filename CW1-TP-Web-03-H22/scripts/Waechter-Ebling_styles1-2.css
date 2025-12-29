@@ -1,0 +1,13 @@
+﻿body {
+}
+h1{
+    color:maroon;
+}
+p {
+    color: navy;
+}
+
+a{
+    color:fuchsia;
+    font-weight:bold;
+}

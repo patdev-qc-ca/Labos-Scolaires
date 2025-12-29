@@ -1,0 +1,479 @@
+0.	Préparation pour ce CW1-TP-WEB-4-H22
+Notes :	Avant de commencer à produire le contenu de ces directives de cette section 0 (zéro), lisez-les une fois au complet sans rien faire.  Puis  reprenez la lecture une seconde fois et procédez.
+La majorité voir la totalité des concepts nécessaire pour réaliser ce TP se situe dans vos « Notes de cours ».
+0.1.	Ce Travail pratique doit se réaliser SEUL (E).  Attention au plagiat !
+0.2.	Dans votre Portable, créez un Dossier de Remise pour ce CW1-TP-WEB-4-H22.  Nommez-le comme ceci :
+VotreNomFamille-CW1-TP-WEB-4-H22	  Exemple : Beauregard-CW1-TP-WEB-4-H22     à la place de mon nom, inscrivez le vôtre !
+Attention !  N’insérez aucun espace dans le nom de votre « Dossier de Remise ».
+0.3.	Renommez ce fichier-ci, comme ceci :
+VotreNomFamille-Consignes-CW1-TP-WEB-4.docx   Exemple :  Beauregard-Consignes-CW1-TP-WEB-4.docx     à la place de mon nom, inscrivez le vôtre !
+0.4.	Dans votre Dossier de Remise, insérez tous les documents reliés à ce Travail Pratique, soit : 
+> ce fichier-ci (avec le nouveau nom voir No 0.2)  contenant les instructions du TP
+> tous les fichiers .html contenant le code de tous vos programmes HTML
+> tous les fichiers .css contenant le code de tous vos programmes CSS
+> tous les fichiers images ou photos que vous utiliserez à l’intérieur de ce Travail Pratique.
+0.5.	Lorsque tous les fichiers sont insérés dans votre Dossier de Remise, zippez   votre Dossier de Remise.  Attention !  J’ai bien dit : « Zippez le Dossier »  et non le contenu du dossier.
+Si vous ne saisissez pas la nuance, demandez à votre prof de vous expliquer, avant de procéder.  Cela vous évitera de perdre des points inutilement, pour de simples questions de procédures.  Mais sachez que si les procédures de remise ne sont pas parfaitement respectées vous perdrez des points.
+0.6.	Remettez dans LEA, avant la date d’échéance, votre Dossier de Remise zippé, dans la section :
+LEA / TRAVAUX /CW1-TP-WEB-H22 / CW1-TP-WEB-4-H22 .  Vous devez zipper en format :  .zip  seulement.
+0.7.	Si vous avez de la difficulté avec un numéro, laissez-le temporairement, commencez le numéro suivant, puis, revenez au numéro où avez éprouvé des difficultés.
+0.8.	Une lecture attentive complète de la Web-Leçon-4 pourrait vous être très profitable, voire essentiel. 😉
+Note : En tout temps, dans votre code HTML et CSS, portez une attention particulière à vos indentations.   
+Aussi, assurez-vous que vos balises entrantes et sortantes soient bien alignées verticalement.
+Voici le contenu de la page Web avec lequel vous travaillerez durant la majorité des numéros de ce Travail Pratique Web 4.  Ce que vous retrouvez dans les info-bulles ne sont que des instructions dont vous aurez besoin pour réaliser les numéros de ce CW1-TP-WEB-4.  Vous n’avez pas à concevoir ces in-fo-bulles.
+CONCEPTION WEB – 1
+CÉGEP DE GRANBY
+DÉPARTEMENT D’INFORMATIQUE
+PROFESSEURS / COURS / 
+1.	Laurent 
+a.	Conception Web 1
+b.	Fonctions de Travail
+2.	Maurice
+a.	Logiciels bureautiques
+3.	Kevin
+a.	Langage de programmation
+Nous vous souhaitons la bienvenue !
+Bon succès, bonne session !
+
+1.	Boîtes et Dimensions - 1
+Notes : Avant de commencer ce numéro, lisez-le une fois au complet sans rien faire.  
+Puis, reprenez la lecture une seconde fois et procédez.
+Concernant les dimensions des différents éléments de votre page Web, aucun de 
+ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+1.1.	Assurez-vous que votre « Résolution d’affichage » est celle : « RECOMMANDÉE ».
+1.2.	À l’aide des langages HTML  et  CSS,  reproduisez la page Web ci-haut, de ce document-ci.
+1.3.	Insérez le contenu écrit, de la page Web (de la page 1), à l’intérieur d’un conteneur de type <div>
+en tenant compte des instructions inscrites dans les info-bulles.
+1.3.1.	Ce <div> devient donc un conteneur enfant de <body> 
+1.3.2.	Donc, tout le contenu écrit (ci-haut) devient des éléments enfants de ce <div>.  
+Cependant, à ce stade-ci, ce grand <div>, qui inclut tout, n’est pas visible par les inter-nautes car ce <div> ne contient pas de bordure qui l’entoure.  Seul le concepteur le sait.
+Important !  Dans le code HTML,  ce grand <div> DOIT être très bien indenté..
+1.3.3.	À l’intérieur de la balise entrante, associez ce <div> à une class, nommée : divi1
+Note :	À moins que cela ne vous soit spécifié par le prof., tous les styles affectés au grand <div>, dans ce  CW1-TP-Web-4 de-vront se faire uniquement via le sélecteur de class : divi1  (lorsque vous serez à  l’intérieur de votre code  CSS )
+1.4.	Le conteneur  <div> doit être de dimension suffisamment grande pour contenir tout le contenu écrit.
+1.5.	La dimension du conteneur  <div> doit être adapté au contenu.  Cela signifie qu’il ne doit pas être plus grand inutilement.  Juste la grandeur nécessaire.
+1.6.	Donc, pour réaliser les deux numéros précédents, il est fort possible que vous deviez effec-tuer du tâtonnement avec essais-erreurs, et ce, jusqu’à ce que vous atteignez la bonne di-mension.
+1.7.	Insérez un arrière-plan de couleur verte (très très pâle) à l’intérieur du conteneur du grand <div>
+1.7.1.	L’arrière-plan doit être suffisamment pâle pour que l’on puisse lire aisément le contenu.
+1.8.	Coloriez le contenu écrit du 2ième paragraphe de couleur pourpre.
+Attention !  Seul le contenu écrit du 2ième paragraphe doit être colorié de couleur pourpre; 
+ 	pas le 1er paragraphe.
+Note :	Lorsque je vous demande de colorier quelque chose, si dans la consigne, je ne spécifie pas l’approche; par exemple via le nom de la couleur CSS, ou via le mode RGB, ou via la numération hexadécimale, cela signifie que vous pouvez utiliser l’approche que vous désirez, pourvu que la couleur soit la bonne.  Ici, pour l’écriture de ce 2ième paragraphe, la seule chose qui importe au correcteur est que la couleur du texte soit : « pourpre ».
+1.9.	Encadrez le  grand <div> d’une bordure 
+1.9.1.	rouge bourgogne, 
+1.9.2.	d’une épaisseur de 4 pixels, 
+1.9.3.	d’une bordure de type ligne continue  
+(« ligne continue » n’est pas un terme technique exact.  C’est volontaire.  Votre prof. le sait. À vous de trouver )
+1.10.	Encadrez le 2ième paragraphe d’une bordure 
+1.10.1.	bleue, 
+1.10.2.	d’une épaisseur de 3 pixels, 
+1.10.3.	d’une bordure faite de petits traits.
+1.11.	Insérez une marge intérieure de 6 pixels au 2ième paragraphe
+1.12.	Insérez une marge extérieure de 9 pixels au 2ième paragraphe
+1.13.	Après les transformations que vous venez de réaliser, rien ne doit déborder 
+du grand <div>.  Si tel est le cas, réajustez les dimensions du grand <div>
+1.14.	Testez vos deux codes, soit HTML et CSS   dans un navigateur ( Google-Chrome ou FireFox ).
+1.15.	Ne débordez pas non plus des concepts étudiés jusqu’à maintenant en classe.
+L’approche utilisée pour réaliser ce TP-Web-4 doit OBLIGATOIREMENT respecter les con-cepts étudiés dans les Web-Leçons 1 à 4.  Cette remarque s’applique à tous les TP-Webs.
+Soit dit en passant, il est très très peu probable que vous ne trouviez pas tout le code né-cessaire dans vos notes de cours « Web-Leçons ».
+1.16.	***  IMPORTANT !  Les puces commençant avec les numéros : 1, 2 et 3 DOIVENT apparte-nir à une seule et unique paire de balises.  Les puces numérotées doivent appartenir à la même liste à puces. ***
+1.17.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_CW1TP-WEB-4_No1_boit_dim_1.html
+sous : VotreNomFamille__CW1TP-WEB-4_No1_boit_dim_1.CSS
+1.17.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 ) 
+2.	Boîtes et Dimensions - 2
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+2.1.	Modifiez la largeur à 350 pixels au conteneur <div> ( du numéro 1.2 )
+2.2.	À l’intérieur de <body>, à l’aide des marges extérieures, associées au <div>,
+centrez horizontalement le conteneur <div>.  Comme « valeur » affectée à la propriété des « marges extérieures », vous ne devez pas utiliser ni une valeur en pixel ni une valeur avec le pourcentage ( % ).
+2.3.	Assurez-vous que votre « Résolution d’affichage » dans Windows est celle : « RECOMMANDÉE ».
+2.4.	En utilisant les propriétés  CSS : position , gauche et droit, centrez horizontalement le conte-neur  principal ( le grand <div> ), en appliquant OBLIGATOIREMENT un pourcentage ( % ) d’espacement égal à gauche et à droite entre le <body> et le <div>. [ Voir :  Web-Leçon-04, dans LE BAS  de la page 40 ]
+La grandeur du <div>  doit être ajusté à son contenu.  Donc, ni trop gros, ni trop petit.  Juste ce qu’il faut pour que tout entre à l’intérieur.  Vous devrez donc faire quelques essais-erreur pour trouver le bon pourcentage  à gauche et à droite du <div> qui vous permettra de bien centrer.  Il faut que ça soit le même pourcentage à gauche et à droite du grand <div>.
+2.5.	***  Ne donnez pas de largeur définie au conteneur <div>  ( donc pas de : width ). ***  
+S’il y en avait une, retirez-la.
+2.6.	***  Vous ne devez pas non plus utiliser la propriété  margin pour centrer horizontale-ment
+         votre <div>  ***
+2.7.	Appliquez une marge intérieure (pour les quatre côtés) au <div> de : 10 pixels.
+2.8.	Fouillez bien dans la Web-Leçon-04.  Cette approche  est démontrée.
+2.9.	Modifiez la bordure du conteneur <div>   [ Tout ce qui est demandé est dans votre Web-Leçon-04 ]
+2.9.1.	de type : « Outset »
+2.9.2.	avec un arrondissement des quatre coins de 17 pixels
+2.9.3.	de couleur vert foncé
+2.9.4.	d’une épaisseur de 6 pixels  
+2.10.	Centrez les titres ( de niveau 1 à 4 ) à l’intérieur de leur conteneur <div> parent.
+Attention aux indentations.  Ne centrez que les titres, pas la liste à puces imbriquées.
+2.11.	Concernant  les listes à puces, vous devez les aligner à gauche à l’intérieur de leur Conte-neur parent..
+2.12.	Vous devez faire en sorte que le contenu des puces soit à une distance normale de leur puce.
+2.13.	Commentez clairement et en détail ce que vous avez programmé pour faire en sorte que vos puces soient à distance normale de leur contenu.  Ce commentaire est très important.
+2.14.	Testez vos deux codes, soit HTML et CSS   dans un navigateur ( Google-Chrome ou FireFox ).
+2.15.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No2_boit_dim_2.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No2_boit_dim_2.CSS
+2.15.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 ) 
+3.	Styles sur les conteneurs
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+3.1.	Assurez-vous que votre « Résolution d’affichage » dans Windows est celle : « RECOMMANDÉE ».
+3.2.	Repartez avec les pgms HTML  et  CSS  enregistrés au No  1.14
+Pour ce numéro 3, on ajoute les styles qui suivent à ce que vous aviez déjà.  Puis, vous enregistrez avec un nouveau nom.
+3.3.	Le premier paragraphe doit occuper une largeur de 78 %  de son conteneur parent.
+3.3.1.	Notez que le conteneur parent de ce 1er paragraphe est le conteneur réalisé au No 1.2 
+3.3.2.	Le 1er paragraphe dont il est question est celui que vous retrouvez en bas la page 1
+3.4.	Affectez une marge intérieure de 17 pixels au 1er paragraphe seulement
+3.5.	Affectez un des types de bordures avec un effet  3D au 1er paragraphe seulement
+3.6.	Affectez un ton de couleur brune à la bordure du 1er paragraphe
+3.7.	Affectez une épaisseur de 3 pixels à la bordure du 1er paragraphe seulement
+3.8.	Affectez un arrière-plan de couleur jaune très pâle au 1er paragraphe seulement
+3.9.	Affectez du gras fort (en CSS ) à l’écriture du 1er paragraphe seulement
+3.10.	Affectez une courbure  à la bordure du 1er paragraphe 
+sur les coins : « en haut à droite » et « en bas à gauche » de 14 pixels
+3.11.	Associez une ombre au 1er paragraphe
+3.11.1.	de couleur olive, mais avec une valeur hexadécimale ( # )
+3.11.2.	vers l’extérieur de la bordure
+3.11.3.	Avec un déplacement horizontal vers la gauche de 6 pixels
+3.11.4.	Avec un déplacement vertical vers le haut de 4 pixels
+3.11.5.	Avec une propagation de 5 pixels	
+3.12.	Testez vos deux codes, soit HTML et CSS   dans un navigateur ( Google-Chrome ou FireFox ).
+3.13.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No3_sty_cont.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No3_sty_cont.CSS
+3.13.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 )) 
+Note : Dans votre code HTML, faites Attention à vos indentations et à l’alignement des balises ouvrantes et fer-mantes.  La rectitude de ces dernières sera aussi évaluée.
+Attention à la qualité du français écrit.
+N’oubliez pas de commenter abondamment, et ce, autant dans votre code HTML  que dans votre code CSS.
+4.	Propriétés d’affichage	
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+4.1.	Assurez-vous que votre « Résolution d’affichage » dans Windows est celle : « RECOMMANDÉE ».
+4.2.	Repartez avec les pgms HTML  et  CSS  enregistrés au No  1.14
+4.3.	Le conteneur <div> doit avoir une largeur équivalente à 83 % de son conteneur parent <body>
+4.4.	Le conteneur <div> doit être centré horizontalement par rapport à son conteneur pa-rent
+4.4.1.	Pour centrer horizontalement le <div> par rapport à son parent <body>
+vous ne devez pas utiliser ni de valeur en pixel ni de valeur en pourcentage.
+Vous devez utiliser la propriété de la marge extérieure OBLIGATOIREMENT.
+4.4.2.	*** Commentez votre code du numéro précédent clairement et en détail.
+4.5.	Le conteneur <div> doit se situer à 10 pixels de la bordure supérieure de son parent <body>
+4.5.1.	Le centrage horizontal et le positionnement à 10 pixels de la bordure supérieure
+de son Conteneur parent doivent se réaliser dans la même déclaration ( sur une même ligne ).
+La convention oblige à insérer une seule déclaration sur une même ligne, soit :
+propriété : valeur ;  ( Une valeur affectée à une propriété peut cependant détenir plusieurs paramètres, exemple, c’est le cas pour une couleur en mode : RVB ).
+ 
+4.6.	À l’aide de la propriété CSS « display » et de propriétés de « positionnement » (posi-tion),  positionnez les deux paragraphes l’un à côté de l’autre, sur une même ligne.
+4.6.1.	Les deux paragraphes de doivent pas déborder de l’intérieur de leur conteneur parent.
+4.6.2.	Le 2ième paragraphe doit être positionné à gauche du 1er paragraphe
+4.6.3.	Les 2 paragraphes ne doivent cependant pas être collés l’un sur l’autre.
+4.6.4.	L’espace réservé au 2ième paragraphe doit être de 31 % de la largeur de son 
+conteneur parent.
+4.6.5.	L’espace réservé au 1er paragraphe doit être de 56 %  de la largeur de son 
+conteneur parent.
+4.6.6.	***  Dans VSC, commentez le code servant à réaliser les cinq numéros précédents.
+Ce numéro est très très très important !
+4.6.7.	Dans la Web-Leçon-04, donnez la référence précise qui traite des numéros : 4.5.1.  à  4.5.5.
+
+
+4.6.8.	Le 1er paragraphe doit être encadré d’une bordure ayant les valeurs suivantes :
+4.6.8.1.	Une épaisseur 3 pixels
+4.6.8.2.	De style : « ridge »
+4.6.8.3.	D’un ton de vert foncé paramétré avec des valeurs : « RougeVertBleu »
+4.6.8.4.	Avec des coins arrondis à 12 pixels
+4.6.8.5.	Avec une marge intérieure de 2 pixels
+4.6.9.	Modifiez la bordure du <div>
+4.6.9.1.	D’une épaisseur de 6 pixels
+4.6.9.2.	De style : « groove »
+4.6.9.3.	D’un ton de mauve foncé, mais paramétré avec des valeurs : RougeVertBleu 
+4.6.9.4.	Avec les coins arrondis « haut-droit »  et « bas-gauche » courbés à 17 pixels
+4.6.9.5.	Avec un ombrage à gauche, intérieur, jaune, de : 3 pixels, 3 pixels, 3 pixels
+4.7.	Testez vos deux codes, soit HTML et CSS   dans un navigateur ( Google-Chrome ou FireFox ).
+4.8.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No4_pro_aff.html   
+sous : VotreNomFamille_ CW1TP-WEB-4_No4_pro_aff.CSS
+4.8.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 )) 
+Note : Dans votre code HTML, faites Attention à vos indentations.  La rectitude de ces dernières sera aussi évaluée.
+5.	Positionnement  avec  la propriété CSS : « POSITION »
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+5.1.	Repartez avec les pgms HTML  et  CSS  enregistrés au Nos  1.14
+5.2.	Ré-Enregistrer-le  immédiatement  sous :
+VotreNomFamille_ CW1TP-WEB-4_No5_pos_abs.html
+VotreNomFamille_ CW1TP83-WEB-4_No5_pos_abs.CSS
+5.3.	Assurez-vous que votre « Résolution d’affichage » dans Windows est celle : « RECOMMANDÉE ».
+5.4.	Retirer la liste à puces du contenu du <div> en utilisant la technique de « mis en commentaire »
+5.5.	À l’aide de déclarations CSS, redimensionnez  le <div> en ajustant les dimensions au nou-veau contenu réduit (vous venez de retirer la liste à puces).
+5.6.	À l’aide de la combinaison des propriétés CSS : « position »  et  « droit, gauche, haut, bas »,
+5.6.1.	Ce <div> doit s’afficher dans le coin supérieur droit de l’écran ( du <body> ),
+à 3 pixels de la droite et à 4 pixels du haut.
+5.7.	À l’aide de la valeur de positionnement : « absolue » ou « relative » ( à tester laquelle des deux est la plus appropriée ) et des propriétés : «droit, gauche, haut, bas »,
+Rappel : Lorsqu’on utilise la valeur : « absolute » sur un sélecteur, on doit s’assurer que le conteneur parent de ce sélecteur soit aussi associé à la propriété : « position ».  Il est également préférable que la propriété « position » du conteneur parent soit aussi affectée par la valeur : « absolute ».
+5.7.1.	Augmenter moyennement la superficie du <div>, assurez-vous de ne pas dépasser les dimensions de l’écran de votre Portable.
+Cette augmentation moyenne, au-delà des besoins d’affichage du contenu écrit, nous servira à vérifier visuellement une programmation à venir dans les numéros ulté-rieurs.
+Agrandissez, mais sans que votre <div> prenne toute la largeur de <body>.
+Faites en sorte que la hauteur ne dépasse pas non plus la hauteur de votre écran.
+5.7.2.	À l’intérieur du conteneur <div>, positionnez le 2ième paragraphe dans le coin inférieur gauche à 10 pixels du bas et à 2 pixel de la bordure gauche du <div>.
+5.7.3.	Donnez aux éléments <div> et aux deux paragraphes, des bordures :
+5.7.3.1.	d’une épaisseur de 3 pixels, noire, de style solide.
+5.7.3.2.	Avec une courbure de 15 pixels sur les deux coins à gauche.
+Attention !  	Petit rappel, et ce, pour tout ce TP-Web-04, lorsque les mêmes styles sont associés à plusieurs objets, vous DEVEZ coder économiquement.  C’est-à-dire que l’on ne doit pas apercevoir des déclarations identiques se répéter dans votre programme CSS  !
+5.7.4.	Le contenu du 1er paragraphe doit être en gras fort via une programmation CSS.
+5.7.5.	Aucune déclaration identique ne doit se répéter à l’intérieur du code CSS.
+5.7.6.	S’il n’est pas nécessaire d’utiliser de sélecteur de class, vous ne devez pas les utiliser.
+5.7.7.	Mais si c’est nécessaire, vous n’hésitez pas, vous les utilisez correctement.
+5.7.8.	Enregistrer sous :
+VotreNomFamille_ CW1TP-WEB-4_No5_pos_abs.html
+VotreNomFamille_ CW1TP-WEB-4_No5_pos_abs.CSS
+5.8.	Flottement
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+5.8.1.	Repartez avec les pgms HTML  et  CSS  enregistrés au No  1.14
+5.8.2.	Affectez une largeur de plusieurs pixels au titre de 1er niveau pour qu’il devienne très très gros, pour qu’il prenne l’espace de plus de la moitié  de la largeur de la 
+du  <div> (votre correcteur évalue cela à l’œil.  Faite de même.  Donc, il faut que cela soit très évident, et ce, sans être obligé de sortir une règle ).  
+5.8.3.	À l’aide d’une sous-propriété « margin » :
+5.8.3.1.	positionnez le titre de 1er niveau à 10 pixels du haut de son conteneur parent 
+Je dois voir dans le code, le fait que vous faites allusion à l’aspect : « supérieur ».
+5.8.3.2.	Les autres marges extérieures ne doivent pas changer (à gauche, à droite, en bas)
+5.8.4.	À l’aide de la propriété CSS de flottement, faites flotter le titre de 2ième niveau à droite
+5.8.5.	Positionnez le titre de 2ième niveau  sous le titre de 1er niveau
+5.8.6.	À l’aide de la propriété CSS de flottement, faites flotter le titre de 3ième niveau à gauche
+5.8.7.	Avec une valeur hexadécimale ( # ), coloriez l’arrière-plan du titre de 2ième niveau en rose.
+5.8.8.	Avec une valeur hexadécimale ( # ), coloriez l’arrière-plan du titre de 3ième niveau en orange.
+5.8.9.	*** Positionnez le titre de 3ième niveau  pour qu’il cache le titre de 2ième niveau de la moitié de sa hauteur
+5.8.10.	À l’aide de  z-index sur les titres de 2ième  et  3ième niveaux, faites passer le titre de 
+2ième niveau par-dessus le titre de 3ième niveau, de façon à cacher la moitié du titre de 3ième niveau
+5.8.11.	Dans le <div>, à l’aide de propriété de flottement, faite flotter le 1er paragr. à gauche.
+5.8.12.	À l’aide d’une certaine valeur affectée à la propriété de flottement, 
+assurez-vous que le 2ième paragraphe n’ira pas se positionner à droite ou à gauche du 1er paragraphe, 
+et ce, même s’il y avait suffisamment d’espace.
+À l’aide d’une propriété CSS, forcez le 2ième paragraphe à se positionner 
+sous le 1er paragraphe.  
+5.8.13.	À l’aide de la syntaxe de commentaire CSS  /*   */, commenter très clairement 
+le numéro 5.5.11. ,dans votre pgm CSS.  Expliquer ce qui se passe dans le Naviga-teur, concernant le 1er paragraphe   en lien avec son conteneur parent et les autres éléments, suite à votre code CSS.  Commentez le positionnement des diffé-rents éléments sur votre page Web.
+5.8.14.	À l’aide de la propriété de flottement, faites flotter le deuxième paragraphe à droite, sous le 1er paragraphe.
+5.8.15.	Diminuez la hauteur du conteneur <div> pour faire en sorte que seulement à peu près la moitié du contenu ne soit visible.
+Puis, à l’aide de la propriété CSS : « overflow », insérez une barre verticale de défi-lement qui permettra aux internautes d’apercevoir la totalité du contenu.
+5.8.16.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No5_pro_pos.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No5_pro_pos.CSS
+5.8.16.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 )) 
+6.	Arrière-plan  -   Couleurs  et/ou Images
+Note : 	Avant de commencer ce numéro 6, prenez le temps de lire la totalité des consignes de ce numéro sans rien faire.  Puis, reprenez la lecture et procédez.
+Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+6.1.	Repartez avec les pgms HTML  et  CSS  enregistrés au No  1.14
+6.2.	Ré-Enregistrer-le  immédiatement  sous :
+sous : VotreNomFamille_ CW1TP-WEB-4_No6_arPlan_ima_coul.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No6_arPlan_ima_coul.CSS
+6.2.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 ))
+6.3.	Assurez-vous que votre « Résolution d’affichage » dans Windows est celle : « RECOMMANDÉE ».
+6.4.	Insérez la « liste à puces », à l’intérieur d’un nouveau conteneur enfant <div>.
+Le conteneur parent de ce nouvel enfant <div> est le conteneur créé au No 1.2.
+Donc, la « liste à puces » doit être à l’intérieur d’un conteneur, et ce conteneur doit être à l’intérieur du conteneur créé au No 1.2
+6.4.1.	Associez à ce nouveau  <div>  enfant, une class nommée :  divi2
+6.5.	Insérez une bordure autour du conteneur enfant (contenant la liste à puces)  .divi2
+6.5.1.	Ligne continue
+6.5.2.	De couleur bleu ciel avec le mode hexadécimal ( # )
+6.5.2.1.	d’une épaisseur de 3,5 pixels ?  Est-ce possible d’avoir du  ,5 dans l’épaisseur d’une bordure ?  Si oui, vous laissez  3,5.  Sinon, vous ajustez l’épaisseur à 3 pixels.
+Note : Quand on ne sait pas, tout simplement on fait un test.
+6.6.	Sur le Web, à l’aide de « Google image », télécharger une image ou une photo 
+« libre de droits » d’un paysage de campagne.
+Concernant l’aspect : « libre de droits », re-consultez, au besoin, le biblio-guide que le respon-sable de la bibliothèque vous a décrit lors de sa conférence, au premier cours de : FT-163
+6.6.1.	Insérez cette image ou cette photo à l’intérieur de votre « Dossier de remise »
+6.7.	Dans le 1er <div> enfant (voir # 6.2.), soit le  .divi2, insérez en mode « Arrière-Plan », l’image ou la photo que vous êtes allés chercher au No précédent.
+6.8.	En « arrière-plan », l’image ou la photo ne doit pas se répéter. 
+6.9.	L’image doit avoir une dimension aussi grande que son  <div>  parent  lui-même.
+( indice    background-size : 100% ;   pourrait être une solution mais ce n’est pas la seule solution possible.  
+  Voir Web-Leçon-04, la bulle explicative en bas de la page 44 )
+6.10.	Créez un autre <div>.
+6.10.1.	 Ce <div> sera enfant du <div> du numéro 1.2 ( à la page 2 )
+6.10.2.	Ce <div> contiendra les deux paragraphes que vous avez dans l’encadré en bas de la page 1.
+6.10.3.	Cet autre <div> sera un conteneur frère du .divi2
+Son parent sera le <div>   .divi1
+6.10.4.	Cet autre <div> sera associé à une class  nommée : .divi3
+6.11.	En utilisant strictement la programmation CSS décrite à l’intérieur de vos notes de cours : « Web-Leçon-4 », 
+à l’intérieur du <div>  (associé à la class : .divi3 ) dont le contenu sont les deux para-graphes, effectuez un arrière-plan de couleurs dégradées:
+6.11.1.	En utilisant strictement la programmation CSS décrite à l’intérieur de vos notes de cours : « Web-Leçon-4 », appliquez un dégradé de type :  Circulaire
+Je veux apercevoir le code concernant le type : Circulaire.	( Web-Leçon-4, page 55 )
+6.11.2.	avec les couleurs pâles : jaune, violet, vert
+6.11.3.	Le dégradé va toucher le côté le plus proche de son centre.  	 Je veux voir ce code.
+(lire attentivement les notes de cours, vous devriez y retrouver exactement ce type d’information.  Page 56 )
+6.11.4.	Avec une transition de couleurs de : 15 % sur le jaune, de 35 % sur le violet et 55 % sur le vert ( Lire attentivement la Web-Leçon )
+Note :  N’utilisez aucun « préfixe vendeur », ni dans ce TP-Web, ni dans aucun TP-Web.  Ne codez que la programma-tion standard.  Cela est d’ailleurs clairement spécifié dans vos notes de cours ( vos Web-Leçons ).
+Les « préfixes vendeurs », c’est le code CSS qui permet aux Navigateurs moins récents ou moins adaptés, d’interpréter certaines propriétés plus complexes.  Il s’agit de :  -webkit-  ,    -moz-  ,   -ms-    et    -o- .
+Le jaune part du centre en se dégradant puis passe au violet lequel á son tour se dégrade vers le vert qui remplit le reste de la zone
+6.11.4.1.	Dans tes mots, explique exactement ce qui se passe avec les trois couleurs, après que tu aies programmé les transitions demandées.  Tu dois me parler strictement de ton jaune, de ton violet et de ton vert.  Cette explication doit être très claire.  Cette explication est importante dans la pondération de ce TP.  Réponds dans l’encadré.
+
+6.12.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No6_arPlan_ima_coul.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No6_arPlan_ima_coul.CSS
+6.12.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 ))
+ 
+7.	Liste à puces avec images	( Voir la Web-Leçon 4…  page 56 et ss )
+Note :  Avant de commencer ce numéro, lisez-le une fois au complet sans rien faire.  Puis re-prenez la lecture une seconde fois et procédez.	
+Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+7.1.	Repartez avec les pgms HTML  et  CSS  enregistrés au No  1.14
+7.2.	Remplacez les puces  1. , 2.  et  3.  que vous retrouvez dans l’encadré dans le bas de la page 1, ci-haut par une puce image. 
+7.3.	Contrairement à votre TP-Web-02,  ici, vous devez créer vous-même votre image qui vous servira de « puce ».  Voir  ici-bas, le numéro : 7.10.2. 
+7.4.	Lors de votre deuxième TP Web, vous avez eu aussi à réaliser une liste à Puces avec puces ima-gées.  La différence dans ce 4ième  TP Web, est celle-ci.  Ici, vous devrez utiliser un fichier externe  .css .  Aussi, vous devrez utiliser la balise <link>, ce qui n’était pas le cas dans le TP-Web-02.
+7.5.	Votre puce devra être l’image d’une petite auto. 
+7.6.	Attention !  Seules les puces : 1. , 2.  et  3.  doivent être modifiées par la puce image auto.  Les autres puces doivent demeurer intactes.  Les autres puces vous ne devez pas les modi-fier.
+7.7.	Lorsqu’on a une puce « image » comme une petite auto, d’après vous, s’agit-il d’une liste de type « ordonnée »  ou  « NON ordonnée » ?   Pourquoi ?
+Quels sont les deux sortes de balise HTML  concernant ces deux types de liste à puces ?
+
+7.8.	En fonction de ce que vous répondrez à la question précédente, y-a-t-il quelque chose que vous devrez modifier dans votre code ( en lien direct avec la question précédente ) ?
+Le sélecteur dans css soit ol pour les listes organisées soit ul pour les liste non organisées
+
+7.9.	Vous devrez chercher une image d’auto sur le Web.  Votre image devra être libre de droits.
+7.10.	Vous devrez réduire votre image d’auto à une dimension de puces (pour listes à puces)
+Pour diminuer la dimension de votre auto, utilisez l’application : « PhotoShop 2021 » français.
+7.10.1.	Votre image de dimension « puce » pour liste à puces devra être de format :  .png
+7.10.2.	Voir l’annexe dans : LEA / DOCUMENTS / ANNEXES … / Préparation pour obte-nir…
+7.11.	Vous devrez me remettre les deux fichiers images.  Soit l’image avec sa dimension originale et l’image à dimension de puce.  Vous devrez modifier légèrement le nom de l’image modifiée.
+Donc, dans votre Dossier de Remise, je devrai apercevoir les deux fichiers images.  
+7.12.	Cependant, dans votre code de prog, vous ne vous servirez que de l’une d’entre elles.
+7.13.	Donnez des noms simples et courts avec le mot « auto » pour les deux fichiers images. 
+7.14.	Tout le code de programmation concernant les puces imagées NE devra PAS se situer à l’intérieur du fichier  .html  (Donc, pas à l’intérieur d’une balise HTML )
+7.15.	Tout le code de programmation concernant les puces imagées devront se situer à l’intérieur du fichier  .css    SEULEMENT.
+7.16.	Dans votre code CSS, vous n’irez chercher que votre image réduite pour effectuer l’affichage de vote liste à puces.  Cette image de puce devrait être dans votre Dossier de Remise.
+( Pour connaître le nom de votre Dossier de Remise, voir : à la page 1, la consigne No  0.2. ).
+7.17.	Testez votre code HTML dans un navigateur ( Google-Chrome ou FireFox ).
+7.18.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No7_puc_ima.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No7_puc_ima.CSS
+7.18.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.1 ci-haut, à la page 1 ))
+8.	Liste à puces sans puces
+Note : Concernant les dimensions des différents éléments de votre page Web, aucun de ceux-ci ne doit être plus grand que la dimension de votre écran de portable.
+Pour voir la totalité de tous les éléments de votre page Web, nous ne devons pas
+devoir utiliser aucune des barres de défilement.
+8.1.	Lors de votre deuxième TP Web, vous avez eu à réaliser cette même liste à Puces sans puce.  La différence dans ce 4ième  TP Web, est celle-ci.  Ici, vous devrez utiliser un fichier externe  .css .  Aussi, vous devrez utiliser la balise <link>, ce qui n’était pas le cas dans le TP-Web-02.
+8.2.	À l’intérieur d’un éditeur de code, complétez le code du pgm HTML servant à repro-duire la liste à puces, mais sans puces, au bas de cette page-ci.  Votre liste DOIT être IDENTIQUE  à ce que vous retrouvez dans la case du tableau ici-bas, dans cette page-ci. 
+8.3.	Le code CSS  qui vous servira à produire une liste à puces sans puce devra se situer à l’intérieur d’un fichier externe .css  qui sera appelé à l’aide de la balise html  <link… >.  Ce pgm  CSS  doit se nommer : VotreNomFamille_ CW1TP-WEB-4_No8_lis_ss_puc.CSS
+8.4.	Même s’il n’y a pas de puces, c’est très IMPORTANT que vous programmiez vraiment 
+une LISTE.   Donc, concernant spécifiquement la zone de la liste à puces, on ne doit aper-cevoir aucun <p>  ni aucun  <h1>,  ou  <h2> , etc.  aucun  h.
+8.5.	Même si vous obtenez exactement la même apparence dans le Navigateur, si, ce que vous programmez n’est pas une LISTE, évidement vous n’aurez AUCUN point.
+8.6.	Testez votre code HTML dans un navigateur ( Google-Chrome ou FireFox ).
+8.7.	Pour réaliser ce programme il est possible que deviez effectuer des recherches sur le Web.
+8.8.	Enregistrer vos pgms HTML  et  CSS, 
+sous : VotreNomFamille_ CW1TP-WEB-4_No8_lis_ss_puc.html
+sous : VotreNomFamille_ CW1TP-WEB-4_No8_lis_ss_puc.CSS
+8.8.1.	Enregistrez vos pgms HTML et CSS à l’intérieur de votre « Dossier de Remise »
+(Pour connaître le nom de votre Dossier de Remise, voir le numéro 0.2 ci-haut, à la page 1 ))
+ 
+
+Liste à puces
+Liste à puce, mais sans puces :
+Maurice
+Laurent
+Antoine
+Kevin
+Sébastien
+Isabelle
+Note : Dans votre code HTML, faites Attention à vos indentations.  La rectitude de ces dernières sera aussi évaluée.
+
+Questions à répondre et à référencer seulement à l’aide de la Web-Leçon-4
+9.	A) Lorsque nous utilisons une déclaration CSS, avec la valeur : « inline-block », associée à des  
+     sélecteurs  p,  à l’intérieur du code CSS, 
+qu’est-ce qui est  « inline » concernant les sélecteurs p et qu’est-ce qui est « block » ?  
+Répondez très clairement.  Votre  Arrière-Grand-Mère  doit comprendre très facilement vos explications, et ce, assez pour qu’après, elle puisse réaliser toute seule la programmation.
+La qualité écrite de votre français DOIT être de niveau : « Études Supérieures » ?
+Ajustez la dimension de l’encadré qui suit.  S’il est trop petit, il devrait s’ajuster automatique-ment, et s’agrandir.  Mais s’il est trop grand pour rien, vous devrez le diminuer.
+La valeur inline-block va nous permettre d’emprunter certaines propriétés des éléments de type block et certaines propriétés des éléments de type inline. Ainsi, l’élément en soi va être de type inline tandis que ce qu’il contient (« l’intérieur de la boîte ») va être considéré comme étant de type block.
+Cela va nous permettre entre autres d’afficher plusieurs éléments côte–à-côte tout en maîtrisant précisément la taille de chacun d’entre eux.
+
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+     Donnez le numéro de la page et le titre de la section.
+ 
+10.	A) Quelle propriété et quelle valeur CSS pouvons-nous associer à un sélecteur , pour faire en 
+     sorte :
+ 	qu’un texte trop long ne déborde pas de son conteneur parent <div>
+     et
+    pour afficher une barre de défilement  à l’intérieur du conteneur parent;
+    laquelle permettrait de visionner tout le contenu du conteneur parent ?
+propriété overflow et float
+Gestion du débordement (l’overflow)
+Vous devez faire bien attention en utilisant la propriété float car celle-ci va également sortir complètement un élément HTML du flux normal de notre page web.
+Ainsi, si un élément flottant est plus grand que son élément parent conteneur, celui-ci va dé-border de son conteneur verticalement.
+Afin d’éviter ce comportement, on peut utiliser la propriété overflow qui va nous permettre de ca-cher (ou pas) ce qui va dépasser.
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+    Donnez le numéro de la page et le titre de la section.
+
+11.	A) Codez deux programmations CSS distingues qui permettraient de centrer horizontalement un titre de premier niveau, à l’intérieur d’un conteneur <div>. 
+Avec chacune des deux programmations, vous devez obtenir exactement le même résultat.
+Dans un premier temps, avec la propriété CSS : margin  
+et  
+dans un deuxième temps, la propriété CSS : text-align.
+Le <div> a une largeur de 700 pixels et le titre de premier niveau a une largeur de 450 pixels.
+Écrivez l’ensemble des déclarations CSS du titre de premier niveau et du conteneur div,
+et ce, avec les deux propriétés : « text-align »  et  « margin ».
+Après avoir écrit le code CSS, ajustez l’encadré qui suit au contenu.  Évitez l’espace vide inutile après le code.  ( Je pense que si vous testez le code vraiment, ce sera plus facile  à répondre. )
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+     Donnez le numéro de la page et le titre de la section.
+
+12.	A) En écrivant qu’une seule fois la déclaration avec la propriété « background-image » et en utilisant obligatoirement la propriété : « background-size » , une seule fois également, 
+comment feriez-vous pour qu’un fichier image se répète 5 fois horizontalement à l’intérieur de  <body>. Supposons que notre fichier image se nomme : TonPrénom-image.jpg.
+Remplacez  TonPrénom  par votre prénom réel à vous.  Entrez le code complet CSS à l’intérieur du sélecteur : body.  La dimension des 5 images doit être identique.
+( Ajustez la dimension de l’encadré qui suit, au contenu nécessaire pour écrire votre réponse.  Retirez l’espace inutile ).
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+     Donnez le numéro de la page et le titre de la section.
+
+13.	A) Comment feriez-vous pour faire en sorte qu’un fichier image demeure toujours visible à l’écran, toujours positionné à la même place à l’écran, et ce, même si l’internaute défile sur votre page Web abondamment vers le haut ou vers le bas.  (défiler = to scroll)
+
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+     Donnez le numéro de la page et le titre de la section.
+
+14.	A)Comment feriez-vous pour faire en sorte qu’un fichier image suive la page à laquelle le fi-chier-image est associé ?  
+Donc, si l’internaute défile abondamment vers le bas, il arrivera un moment  où l’image ne se-ra plus visible à l’écran.  L’image est collée à une section de la page.  Si la section n’est plus vi-sible à l’écran, l’image non plus n’est plus visible à l’écran.
+( Ajustez la dimension de l’encadré qui suit, au contenu nécessaire pour écrire votre réponse.  
+Agrandissez au besoin  ou  retirez l’espace inutile ).
+Fixer ou faire défiler le fond en CSS
+On va pouvoir faire défiler en même temps qu’un utilisateur va 
+descendre dans la page grâce à la propriété 
+
+
+B) Donnez la référence très précise de cette information à l’intérieur de la Web-Leçon-4.  
+     Donnez le numéro de la page et le titre de la section.
+15.	Attention à la qualité du français écrit.
+16.	Ajustez la Mise en Page de ce document-ci avant de le remettre.
+17.	Dans le tableau d’identification en haut de la 1ère page de ce document-ci, veuillez remplacer 
+le x par le Numéro de votre groupe, s.v.p.  Merci !
+18.	Attention ! Vous ne devez pour aucun des TP de cours me remettre les Web-Leçons.
+Dans le cas contraire, vous subirez une perte de 20 %.  Je ne veux pas recevoir les Web-Leçons.
+19.	Assurez-vous d’avoir lu attentivement tous les COMMUNIQUÉS dans LEA.  Et assurez-vous, après avoir lu les COMMUNQUÉS, de retirer toutes les étoiles jaunes.  Si vous ne voyez pas votre note pour un travail, dans LEA, alors que vous êtes bien certain(ne) d’avoir remis votre travail, la raison pourrait être reliée au fait que vous n’avez pas lu tous les COMMUNIQUÉS.
+20.	Si votre OmniVox est défectueux, qu’il n’enlève pas les étoiles jaunes, précisez-le-moi.
+21.	Il pourrait arriver qu’à l’intérieur d’un COMMUNIQUÉ, une modification doive être apportée à un numéro de TP.  Dans un tel cas, vous devez appliquer ladite modification avant de me re-mettre votre TP.
+Si vous ne parvenez pas à retirer les étoiles jaunes ou si vous ne trouvez pas vos Communi-qués, adressez-vous au C.T.i.C., au local  C-232.  Un technicien vous guidera.
+22.	La date d’échéance de remise de ce TP-Web-04, est : 
+Samedi, le [ Voir date dans : LEA / TRAVAUX ], 2022,  avant 16h00  dans LEA
+ÉCHÉANCES	PERTES DE POINTS POUR RETARD
+Avant, samedi, [ date dans :  LEA / TRAVAUX ] 2022,   16h00	Aucune perte de points pour retard
+Samedi, [ date dans :  LEA / TRAVAUX ] 2022,  de  16h01   à  23h59	-10 points
+Dimanche, le lendemain  2022	-20 points
+Lundi, le surlendemain   2022	-30 points
+Après lundi,  2022  
+Donc, à partir du mardi  2022	Le travail n’est pas corrigé 
+et vous avez 0  (zéro)
+Note :  Il se pourrait qu’une erreur d’inattention se soit glissée par inadvertance dans ce document.  Si tel était le cas, je vous saurais gré d’en informer votre humble serviteur. 
+Vous pouvez mettre mon erreur en rouge, m’en informer par M.i.O. et m’aviser de vive voix, durant un cours ou en venant à mon bureau ( A-313 ) s.v.p. 
+En vous remerciant grandement !  			
+FiN !

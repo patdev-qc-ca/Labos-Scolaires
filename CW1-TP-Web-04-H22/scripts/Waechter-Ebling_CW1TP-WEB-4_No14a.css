@@ -1,0 +1,11 @@
+﻿/*
+1
+*/
+body{
+    position: sticky;
+    background-position: top right;
+    background-image: url("../images/Patrice-image.jpg");
+    background-size: 20%;
+    background-repeat:no-repeat  ;
+    
+}

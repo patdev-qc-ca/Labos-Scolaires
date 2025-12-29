@@ -1,0 +1,109 @@
+﻿/*
+    Patrice Waechter-Ebling 
+    creation 26-04-2022
+    mise à jour 3
+    29-04-2022 
+    correction erreur couleur bordure Conteneur_Parent_Flexible
+    j ai remarque sur l'image quélle devait etre noir et pas bleue
+*/
+
+/********************************************************************
+
+/*Les sélecteurs*/
+body 
+{
+    padding-left: 2px; /*pas essentiel mais fais plus beau visuellement*/
+    margin: 0px;
+    position: fixed; 
+    width: 98%;
+    height:99%;
+}
+h1
+{
+    color:#44649A;
+}
+h2
+{
+    color:#F19C63;
+}
+h3
+{
+    color:#01B051;
+}
+h4
+{
+    color:#6F309D;
+}
+.divTitres
+{
+    position:absolute;
+    margin: 2px auto; /* pas obligatoire mais plus esthetique*/ 
+}
+.Conteneur_Parent_Flexible { /*Gestion du conteneur*/
+    display: flex;
+    flex-shrink: 0;
+    position:relative;
+    margin-left: 350px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: baseline;
+    align-content:flex-start;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+    flex-basis:700px;
+    height: 98%;
+    border: 4px solid rgb(0, 0, 0);
+} 
+.items_flexibles_enfants { /* Gestion des elements enfants*/
+    flex-basis: 30%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center ;
+    align-items:flex-start;
+    flex-direction: row-reverse;
+    margin-bottom:35px;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.5%;
+}
+   
+/*Gestion personalisee des items*/
+#a {
+    background-color: #ABF1CB;
+    border-color: #24D675;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#b
+{
+    background-color:#EFEFAD;
+    border-color: #DAD650;
+}
+#c {
+    background-color: #E0BCDC;
+    border-color: #BD6FB4; /*Personalisation des polices d`ècritures*/
+    font-family: 'Times New Roman';
+    font-size: 72px;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    font-weight: bolder;
+    text-decoration-style: wavy;
+    align-content: space-between;
+}
+#d {
+    background-color: #A99DFF;
+    border-color: #9081FF;
+}
+#e {
+    background-color: #B4C7E7; /*Personalisation des polices d`ècritures*/
+    border-color: #83A3D7;
+    font-family: 'Times New Roman';
+    font-size: 72px;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    /* flex-grow: 5;*/
+    font-weight: bolder;
+    text-decoration-style: wavy;
+}
