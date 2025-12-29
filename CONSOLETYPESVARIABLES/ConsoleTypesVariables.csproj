@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>00000031.ICO</ApplicationIcon>
+    <PlatformTarget>x86</PlatformTarget>
+    <Configurations>Debug;Release;Exemples</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="00000031.ICO" />
+  </ItemGroup>
+
+</Project>
