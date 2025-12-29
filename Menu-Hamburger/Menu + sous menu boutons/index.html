@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./MenuHamburger.css">
+    <link rel="icon" href="./Patrice.bin">
+    <title>Menu Hamburger(sous menu boutons)</title>>
+    <script>
+        function cacherA(){
+            document.getElementById("Clics").style.display="none";
+        }
+        function maFunction() {
+            var x = document.getElementById("Clics");
+            if (x.style.display === "block") 
+            {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body onload="cacherA()">
+
+    <div>
+        <header>
+            <img src="./bandeau-page-cegep-vert.jpg" alt="Bandeau vert cegep">
+        </header>
+       <input type="button" value="MenuHamburger"  onclick="maFunction()">
+        <nav>
+             <div id="Clics">
+                <input type="button" value="Nouveautees">
+                <input type="button" value="Contact">
+                <input type="button" value="A propos">
+                <input type="button" value="Beta1">
+             </div>
+        </nav>
+        <Section>
+            <h3>menu de navigation vertical</h3>
+            <article>
+                <p>prototype menu avec input au lieu de href</p>
+                <p>cliquer sur le bouton "MenuHamburger"</p>
+            </article>
+            <article>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi soluta, inventore explicabo quam dignissimos nesciunt officia est aliquam quasi voluptas dolorem facilis vero. Ipsam, voluptates. Vel, autem libero? Nam, libero.
+            </article>
+        </Section>
+        <tfoot>
+            Bonne prog a tous
+        </tfoot>
+        <input type="submit" value=" inspiré du TP-WEB-8">          
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body 
+{
+  margin: 0px;
+  padding: 0px;
+  width:592px;
+  height: 568px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  border: #04AA6D 3px solid;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+
+header>img
+{
+  width: 100%;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+div>nav>input[type="button"] body>div>nav
+{
+  overflow: hidden;
+  position: relative;
+  border-color: chocolate;
+  border-width: 1px;
+  border-style: outset;
+   display: block;
+} 
+div>nav>input[type="button"]:active 
+{
+  overflow:scroll;
+  position: relative;
+  border-color: chocolate;
+  border-width: 1px;
+  border-style: outset;
+  background-color: aquamarine;
+}
+div>nav>div>input[type="button"]{
+  color:darkred;
+ }  
+div>nav>div>input[type="button"]:active {
+  color: white;
+  background-color: rgb(251, 245, 67);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}  
+div>nav>div>input[type="button"]:hover {
+ margin-top: 6px;
+  padding: 3px;
+  text-decoration: none;
+  background-color: #ddd;
+  border-radius: 22px;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-style: double;
+  color:indigo;
+}
+div>section{
+  text-align: center;
+  text-shadow: brown 1px 1px;
+}
+div>section>h3{
+  color: blueviolet;
+}
+div>section>article>p
+{
+  color:rgb(34, 10, 152)
+}
+div>section>article
+{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  border: double 3px rgb(45, 1, 45);
+  color:rgb(14, 4, 63)
+}  
+div>section>article:hover
+{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  border: double 3px rgb(7, 45, 1);
+  color:rgb(255, 4, 63);
+  border-radius: 24px;
+}  
+div>nav>div>input[type="button"]:active
+{
+  background-color: #04AA6D;
+  color: white;
+}
+div>input[type="submit"]{
+  display:block;
+  
+  color:darkred;
+ }  
+
+tfoot{
+  display:block;
+  color: chartreuse;
+  text-align:center;
+}
