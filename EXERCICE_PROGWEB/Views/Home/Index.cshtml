@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Exercice_ProgWeb31";
+    string email=Environment.UserName + "@" + Environment.UserDomainName + ".intra";
+}
+
+<div class="text-center">
+    <h3 class="display-4">Bienvenue sur le poste @{
+        this.Write(Environment.UserDomainName);
+    } </h3>
+    <h4>
+        @{
+            if (Environment.UserName == "Patrice")
+            {
+                this.Write("Bienvenue mon programmeur adoré");
+            }
+            else if (Environment.UserName == "2196136")
+            {
+                this.Write("Bienvenue Maître insomniaque");
+            }
+            else
+            {
+                this.Write("Sois le bienvenu" + Environment.UserName);
+
+            }
+        }
+    </h4>
+    <h5>Email virtuel:     @{
+        this.Write(email);
+    }</h5>
+</div>
