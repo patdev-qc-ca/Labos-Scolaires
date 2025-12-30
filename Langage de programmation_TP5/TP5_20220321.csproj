@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>x86;x64</Platforms>
+    <ApplicationIcon>001_Main.ico</ApplicationIcon>
+    <Authors>Patrice Waechter-Ebling 2022</Authors>
+    <Copyright>Développé par Patrice Waechter-Ebling</Copyright>
+    <PackageIcon>EntrePotes.jpg</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Patrice-Waechter-Ebling/TP5_20220321</RepositoryUrl>
+    <PackageTags>TP5;Prog; C#;OO</PackageTags>
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <AssemblyVersion>5.0.0.1</AssemblyVersion>
+    <FileVersion>5.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2196136_420-BE6-GR_H2022_TP5_20220318.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="001_Main.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Images\EntrePotes.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

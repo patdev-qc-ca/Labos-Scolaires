@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>TP4_20220224.v3.MiseAJour_02032022</StartupObject>
+    <ApplicationIcon>001_Main.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <DebugType>none</DebugType>
+    <BaseOutputPath>.\</BaseOutputPath>
+    <Authors>Patrice Waechter-Ebling</Authors>
+    <Product>$(AssemblyName)_update_02032022</Product>
+    <Copyright>$(Authors)</Copyright>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="TP4_20220224.v3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="001_Main.ico" />
+  </ItemGroup>
+
+</Project>
