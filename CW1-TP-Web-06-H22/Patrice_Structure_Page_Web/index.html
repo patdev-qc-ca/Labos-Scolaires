@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Structure page Web </title>
+		<meta charset="utf-8">
+        <link href="styles/menu.css" rel="stylesheet" type="text/css" />
+        	</head>
+	<body>
+		<header>
+			<p class="GrosGras"> Patrice Waechter-Ebling</p>
+		</header>
+		<nav>
+			<ul>
+				<li class="menu-A"> <a href="pages/a.html">Menu-A </a>  <!--Fichier A.html  à créer -->
+					<ul class="sousMenu">
+						<li> <a href="pages/Test-Sous-Menu-A-1.html"> SousMenu-A-1 </a> </li>
+						<li> <a href="#"> SousMenu-A-2 </a> </li>
+						<li> <a href="#"> SousMenu-A-3 </a> </li>
+						<li> <a href="#"> SousMenu-A-4 </a> </li>
+					</ul>
+				</li>
+				<li class="menu-B"> <a href="pages/b.html">Menu-B </a>   <!--Fichier B.html  à créer -->
+					<ul class="sousMenu">
+						<li> <a href="#"> SousMenu-B-1 </a> </li>
+						<li> <a href="#"> SousMenu-B-2 </a> </li>
+						<li> <a href="#"> SousMenu-B-3 </a> </li>
+						<li> <a href="#"> SousMenu-B-4 </a> </li>
+					</ul>
+				</li>
+				
+				<!-- La ligne de liste  <li...  qui suit appartient à l'un des Menus principaux  
+					 Cette ligne de liste est associée à la class  "menu-C"  
+					 Cette ligne de liste appartient à la liste principale  <ul> 
+					 démarrée à la ligne 18 de ce programme HTML -->
+				<li class="menu-C"> <a href="pages/c.html">TP-Web-06 - A21 </a>
+					<ul class="sousMenu">
+						<li> <a href="pages/Waechter-Ebling_CW1-TP-WEB-06_No1.html"> Tableau Complexe (No 1) </a> </li>
+						<li> <a href="pages/Waechter-Ebling_CW1-TP-WEB-06_No2.html"> Forêt en croix (No 2)</a> </li>
+						<li> <a href="pages/Waechter-Ebling_CW1TP-WEB-06_No3.html"> Audio Mission (No 3)</a> </li>
+						<li> <a href="pages/Waechter-Ebling_CW1TP-WEB-06_No4.html"> Vidéo Nature (No 4)</a> </li>
+						<li> <a href="pages/Waechter-Ebling_CW1TP-WEB-06_No5.html"> Liste à Puces (No 5)</a> </li>
+						<li> <a href="pages/c.html"> SousMenu-C-3 </a> </li>
+				    </ul>
+				</li>
+				<li class="menu-D"> <a href="pages/d.html">Menu-D </a>
+				    <ul class="sousMenu">
+				        <li> <a href="#"> SousMenu-D-1 </a> </li>
+						<li> <a href="#"> SousMenu-D-2 </a> </li>
+					</ul>
+				</li>
+				<li class="menu-E"> <a href="pages/e.html">Menu-E </a> </li>
+			</ul>
+		</nav>
+		
+	
+		<!-- Le conteneur "section" sert à loger le contenu principal de la page Web 
+			 Seulement un des deux conteneurs <article> contient un sous-conteneur <div>
+			 Observez bien le résultat dans un navigateur.  Est-ce que cela crée une 
+			 différence dans l'affichage du Résultat ? -->
+		<section>
+					Conteneur HTML de type "Section" 
+			<article>
+				<div>
+					<p> Article 1 </p>
+				</div>
+			</article>
+		
+			<article>
+				<p> Article 2 </p>
+			</article>
+		
+		</section>
+	
+		<!-- Le conteneur "aside" sert à loger du contenu complémentaire */ /* 
+		Comme son nom l’indique, par convention, il se place sur le côté de la page -->
+		<aside>
+			<!-- Petit rappel. La balise img est une balise orpheline 
+			nécessitant l’attribut src.  
+			Généralement la balise img 
+			reçoit deux attributs. Quel est le 2ième ?  Voir dans vos notes. --> 
+			<!-- <p> <img src="auto.jpg" > </p>  -->
+			<img src="images/banque-d-images-gratuites-et-libres-de-droits3-1560x1275.png" 
+            alt="Auto_Laurent" >
+		</aside>
+	
+		<!-- Le conteneur "footer" sert entre autre à informer 
+		l’internaute sur l'auteur du site, le copyright, etc.  -->
+		<footer>
+			<p class="TresGrosGras">Patrice Waechter-Ebling<p>
+		</footer>
+	</body>
+</html>

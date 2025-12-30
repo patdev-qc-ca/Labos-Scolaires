@@ -1,0 +1,49 @@
+a
+{
+    float:right;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+h1{
+    color:#0070C0 ;
+}
+h3{
+        color:#00B050 ;
+}
+h4{
+    color:#202020 ;
+    font-size: small;
+}
+.liNormal{
+    font-weight: normal;
+}
+.p1{
+    color:#FF0000 ;
+}
+.p2{
+    color:#7030A0 ;
+}
+.LiTeOr{
+    color:#ED7D31 ;
+}
+.htBleu{  
+      color:#0000FF ;
+}
+.htMauve{
+    color:#9566B9 ;
+}
+.enGras{
+    font-weight: bold;
+}
+ol{
+    font-weight: bold;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+body{
+    text-align: center; /*on alligne au centre*/
+   }
+h1:hover{
+   color:fuchsia; /*change de couleur au survol de la souris*/
+}
+video{ /*parametres apparence video*/
+    height: 66%;
+    width:66%;
+    /*
+    partie qui suit ne sert que le look de la video 
+    c moins moche que la version du TP
+    supplement non demande dans le tp
+    */
+    box-shadow: 0px 0px 12px 12px orange; /*ombrage autour du control video*/
+    border-width: 5px;/*lagreur de la bordure avant l ombrage*/
+    border-radius: 6%; /*rayon des arrondis de l ombrage*/
+    border-style: double;/* type de bordure*/
+    border-color: blueviolet;/*couleur  de la bordure*/
+ }

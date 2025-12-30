@@ -1,0 +1,48 @@
+﻿/*
+Patrice Waechter-Ebling
+creation 03-05-2022
+mise à jour 1 
+*/
+*
+{
+    align-items: center;
+}
+body {
+    padding-left: 25%;
+    width: 74.125%;
+    height: 58%;
+}
+a
+{
+    float:right;
+    }
+img{
+    padding: 1.1294%;
+    height: 100px; 
+    width:23% ;
+ }
+.shadow{
+    border:3px solid blueviolet;
+    box-shadow: 0px 0px 12px 12px orange;
+    margin:1.129%;
+}
+.im1{
+    
+  margin-left: 15%;
+  height: 130px; 
+}
+.im2{
+    margin-right: 2.5%;
+    width:20% ;    
+    height: 130px; 
+}
+.im3{
+    left:25%;
+    width:20% ;    
+    height: 130px; 
+}
+.im4{
+    padding-top: 1%;
+    margin-left: 15%;
+    height: 130px; 
+}

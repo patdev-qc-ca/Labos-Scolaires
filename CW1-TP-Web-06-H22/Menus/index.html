@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Structure page Web </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Laurent_Styles.css">
+	</head>
+	
+	<body>
+
+		<!-- En-Tête « header ». Endroit où une compagnie entrera son nom et son logo -->
+		<header>
+			<p> Ici, c'est l'En-Tête (header) </p>
+		</header>
+	
+		<!-- Ce conteneur "nav" sert à loger les menus de navigation -->
+		<nav>
+			<ul>
+				<li class="menu-A"> <a href="A.html">Menu-A </a>  <!--Fichier A.html  à créer -->
+					
+					<!-- Le fait que toutes les listes des sous-menus <ul> soient associées 
+					     à la même class  , soit : "sousMenu", cela permettra
+						 de pouvoir standardiser leur style dans le fichier .css 
+						 Donc, chaque fois, que dans le fichier .css on utlisera
+						 le sélecteur de class "sousMenu", cela affectera tous les sous-menus de votre site Web
+						 
+						 Notez que les listes des menus Principaux ne sont pas associées
+						 à la class  "sousMenu" donc, le code .css associé à la class "sousMenu"
+						 d'affectera pas l'apparence de ces menus Principaux -->
+					<ul class="sousMenu">
+						<li> <a href="Test-Sous-Menu-A-1.html"> SousMenu-A-1 </a> </li>
+						<li> <a href="#"> SousMenu-A-2 </a> </li>
+						<li> <a href="#"> SousMenu-A-3 </a> </li>
+						<li> <a href="#"> SousMenu-A-4 </a> </li>
+					</ul>
+				</li>
+				<li class="menu-B"> <a href="B.html">Menu-B </a>   <!--Fichier B.html  à créer -->
+								<!-- comme toutes les listes des sous-menu sont associées
+								     exactement à la même class (soit   .sousMenu ),
+									 cela permettra dans le code CSS d'uniformiser
+									 certaines propriétés de style pour tous les 
+									 sous-menus -->
+					<ul class="sousMenu">
+						<li> <a href="#"> SousMenu-B-1 </a> </li>
+						<li> <a href="#"> SousMenu-B-2 </a> </li>
+						<li> <a href="#"> SousMenu-B-3 </a> </li>
+						<li> <a href="#"> SousMenu-B-4 </a> </li>
+					</ul>
+				</li>
+				
+				<!-- La ligne de liste  <li...  qui suit appartient à l'un des Menus principaux  
+					 Cette ligne de liste est associée à la class  "menu-C"  
+					 Cette ligne de liste appartient à la liste principale  <ul> 
+					 démarrée à la ligne 18 de ce programme HTML -->
+				<li class="menu-C"> <a href="C.html">TP-Web-06 - A21 </a>
+					<ul class="sousMenu">
+						<li> <a href="../Waechter-Ebling_CW1-TP-WEB-06_No1.html"> Tableau Complexe (No 1) </a> </li>
+						<li> <a href="../Waechter-Ebling_CW1-TP-WEB-06_No2.html"> Forêt en croix (No 2)</a> </li>
+						<li> <a href="../Waechter-Ebling_CW1TP-WEB-06_No3.html"> Audio Mission (No 3)</a> </li>
+						<li> <a href="../Waechter-Ebling_CW1TP-WEB-06_No4.html"> Vidéo Nature (No 4)</a> </li>
+						<li> <a href="../Waechter-Ebling_CW1TP-WEB-06_No5.html"> Liste à Puces (No 5)</a> </li>
+						<li> <a href="#"> SousMenu-C-3 </a> </li>
+					</ul>
+				</li>
+				<li class="menu-D"> <a href="D.html">Menu-D </a>
+					<ul class="sousMenu">
+						<li> <a href="#"> SousMenu-D-1 </a> </li>
+						<li> <a href="#"> SousMenu-D-2 </a> </li>
+					</ul>
+				</li>
+				<li class="menu-E"> <a href="E.html">Menu-E </a> </li>
+			</ul>
+		</nav>
+	
+		<!-- Le conteneur "section" sert à loger le contenu principal de la page Web 
+			 Seulement un des deux conteneurs <article> contient un sous-conteneur <div>
+			 Observez bien le résultat dans un navigateur.  Est-ce que cela crée une 
+			 différence dans l'affichage du Résultat ? -->
+		<section>
+					Conteneur HTML de type "Section" 
+			<article>
+				<div>
+					<p> Article 1 </p>
+				</div>
+			</article>
+		
+			<article>
+				<p> Article 2 </p>
+			</article>
+		
+		</section>
+	
+		<!-- Le conteneur "aside" sert à loger du contenu complémentaire */ /* 
+		Comme son nom l’indique, par convention, il se place sur le côté de la page -->
+		<aside>
+			<!-- Petit rappel. La balise img est une balise orpheline 
+			nécessitant l’attribut src.  
+			Généralement la balise img 
+			reçoit deux attributs. Quel est le 2ième ?  Voir dans vos notes. --> 
+			<!-- <p> <img src="auto.jpg" > </p>  -->
+			<img src="Auto_Laurent.png" >
+		</aside>
+	
+		<!-- Le conteneur "footer" sert entre autre à informer 
+		l’internaute sur l'auteur du site, le copyright, etc.  -->
+		<footer>
+			<p> <strong> Pied de page (footer) </strong> <p>
+		</footer>
+	</body>
+</html>

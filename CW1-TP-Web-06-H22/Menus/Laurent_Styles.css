@@ -1,0 +1,221 @@
+*{
+	margin : 0px ;
+	padding : 0px ;
+}
+header{
+	position : absolute ;
+	top : 0px ;
+	left : 0px ;
+	width : 99% ;
+	height : 50px;
+	background-color : red ;
+	padding : 10px ;
+}
+p{
+	text-align : center ;
+}
+/* "section" c'est la partie en jaune du Site Web */
+section{
+	position : absolute ;
+	top : 120px ;
+	left : 0px ;
+	bottom: 100px;
+	width : 78% ;
+    /* margin : 0px ; */
+	padding : 10px ;
+	background-color : yellow ;
+}
+article{
+	margin : 20px ;
+	padding : 30px ;
+	border : 1px black solid ;
+	background-color : white ;
+}
+/* Comme son nom l’indique, “aside” est un conteneur 
+que l’on place sur le côté des pages Web */
+aside{
+	position : absolute ;
+	top : 120px ;
+	left: 78%;
+	width : 22% ;
+	bottom: 100px;
+	/*margin:20px ; */
+	/*padding:40px ; */
+	background-color : green ;
+}
+/* En ne configurant qu’une seule dimension de l’image, 
+l’autre dimension s’ajustera de façon proportionnelle. 
+Ici, nous ne donnons que la mesure de la largeur (width). 
+La mesure de la hauteur s’ajustera automatiquement de façon à maintenir 
+correctement les bonnes proportions.*/
+img{
+	width : 150px ;
+	padding-left: 70px ;
+	padding-top:  50px;
+	left: 20px;
+}
+footer{
+	position : absolute ;
+	bottom: 0;
+	left : 0px;
+	width : 97.5% ;
+	height : 100px;
+	padding : 10px 20px;
+	/*margin : 5px ; */
+	background-color : blue;
+	color : white;
+}
+
+
+nav{
+	position : absolute ;
+	top : 50px ;
+	left : 0px ;
+	height : 50px ;
+	color: white ;
+	padding: 10px ;
+	width: 99%;
+	background-color:#424558;
+}
+
+nav > ul{
+	margin:0px;
+	padding:0px;
+}
+
+/* Décrivez les lignes 87 et 88. À quoi sert le code suivant ? */
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Dans la situation bien précise qui suit, 
+   à quoi servent les deux symboles >  ?  */
+nav > ul > li{
+	/*Specification de selecteur*/
+	float:left;
+	position:relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+/* Pourquoi le programmeur a-t-il associé
+la pseudo-classe  :hover  à  >li>  plutôt qu'au  <a>  ? */
+nav > ul > li:hover a{
+	padding: 12px 30px 20px 30px;
+}
+
+/* Pourquoi ce code dans cette situation bien précise ?  À quoi sert-il ?  */
+nav li{
+	/*constructeur par defaut*/
+	list-style-type:none;
+}
+
+/* Pourquoi ce code dans cette situation bien précise?  À quoi sert-il ?  */
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* Pourquoi le programmeur a-t-il associé
+la pseudo-classe  :hover  à  <li>  plutôt qu'à la classe  .sousMenu  ? */
+nav li:hover .sousMenu{
+	display:inline-block;
+	position:absolute;
+	top:100%;
+	left:0px;
+	padding:0px;
+	/* Dans cette situation bien précise, 
+	pourquoi le programmeur a-t-il programmé la ligne suivante ? */
+	z-index:1000;
+/*La propriété z-index spécifie l'ordre de pile d'un élément*/
+}
+
+
+/* Que fait exactement ce code dans le navigateur ? */
+.sousMenu li{
+	border-bottom:1px solid #CCC;
+	/*trace une bordure de 1px pleine sous le menu*/
+}
+
+.sousMenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+/* Pourquoi le code suivant ? */
+.sousMenu{
+	display: none;
+	/*sert principalement a masquer un element
+	visibility: hidden;
+	serait plus radical*/
+}
+
+.menu-A:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228,77,38,0.15);
+}
+
+/* Que fait exactement ce code dans le navigateur
+   et dans quelle circonstance le fait-il ? */
+.menu-B:hover{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000,112,192,0.15);
+}
+
+.menu-C:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241,211,79,0.15);
+}
+
+.menu-D:hover{
+	border-top: 5px solid #BBB;
+	background-color:RGBa(220,220,220,0.15);
+}
+
+.menu-A .sousMenu{
+	background-color: RGB(230, 100, 40);
+}
+
+/* Le code qui suit affecte la classe .sousMenu
+   Celui de la ligne 176 affecte aussi la classe .sousMenu
+   Quelle différence y-a-t-il alors entre le code
+   de la ligne 184 et celui de la ligne 176 ? */
+.menu-B .sousMenu{
+	background-color: RGB(000,160,240);
+}
+
+.menu-C .sousMenu{
+	background-color: RGB(250,215,100);
+}
+
+/* Pourquoi le programmeur a-t-il associé
+la pseudo-classe  :hover  à  <li>  plutôt qu'à <a>  ? */
+.sousMenu li:hover a{
+	color: #EEE;
+	font-weight:bold;
+}
+
+/* Pourquoi le programmeur a-t-il associé
+la pseudo-classe  :hover  à  <li>  plutôt qu'à la classe  .sousMenu  ? */
+.menu-A .sousMenu li:hover{
+	background-color: RGB(210,77,60);
+}
+
+.menu-B .sousMenu li:hover{
+	background-color:RGB(000,115,200);
+}
+
+.menu-C .sousMenu li:hover{
+	background-color:RGB(200,165,75);
+}
+section > p {
+	background-color: white;
+	width: 15%;
+}

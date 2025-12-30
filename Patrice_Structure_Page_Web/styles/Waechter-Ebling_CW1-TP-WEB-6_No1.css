@@ -1,0 +1,89 @@
+/*
+    Patrice Waechter-Ebling 
+    création 01-05-2022
+    mise à jour 0
+
+	  */
+a
+{
+    float:right;
+}
+body
+{
+	position:fixed;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	flex-basis: 20%;
+	background-position: left top;
+/*	border-style: solid;	/*debug visuel*/
+/*	border-color: #000000; /*Ne sert que durant la conception sera retiré en mode release*/
+	margin: 0%;
+	padding: 0%;
+	height: 99%;
+	width: 99.5%;
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	table-layout:auto;
+	border-collapse: collapse;
+	empty-cells: show;
+}
+table{
+	font-weight: bold;
+	width: 100%;
+	border-collapse: collapse;
+}
+.souligne{
+	text-decoration: underline;
+}
+.espace{
+	padding: 5px;
+}
+.fond_jaune{
+	background-color:#FFFF00 ;
+}
+.fond_vert{
+	background-color:#99FF66 ;
+}
+.fond_rose{
+	background-color:#FF66FF ;
+	color:#171717;
+}
+td{
+	color:#0000FF;
+	border:-1px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 1.5%;
+}
+.couleur_rouge{
+	color:#FF0000;
+}
+.couleur_mauve{
+	color:#8D3F8D;
+}
+th{
+	font-size:16.0pt;
+	font-family:Calibri;
+	text-transform:uppercase;
+	color:#E600E6;
+	background-color: #D9D9D9;
+	border:#000000 1px solid;
+	padding: .5%;
+}
+.pied{
+font-size:14.0pt;
+font-family:Calibri;
+text-transform:uppercase;
+color:#171717;
+}

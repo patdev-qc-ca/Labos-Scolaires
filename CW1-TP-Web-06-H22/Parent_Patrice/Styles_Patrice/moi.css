@@ -1,0 +1,15 @@
+p{
+    color: #FF2057;
+}
+.enGras{
+    font-weight: bold;
+}
+.enNoir{
+    color: black;
+}
+.enBleu{
+    color: blue;
+}
+.souligne{
+    text-decoration:underline;
+}
