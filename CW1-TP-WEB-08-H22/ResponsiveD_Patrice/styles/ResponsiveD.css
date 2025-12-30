@@ -1,0 +1,710 @@
+/******************************************************************************************
+ 
+4.3.8.	Les trois dispositions pour ces quatre <p>  à l’intérieur du <nav>  sont :
+Grand écran : 	les quatre <p> sur une même ligne
+Tablette : 		les quatre <p> sur deux lignes.  Deux  <p> par ligne.
+Cellulaire : 		les quatre <p> en colonne. Un <p> par ligne
+4.3.9.	Il ne doit pas y avoir aucune autre disposition, et ce, en aucun cas.
+4.3.10.	Ces quatre <p> devront avoir une bordure qui les encadre.
+4.3.10.1.	Ces bordures doivent être stylisées originalement avec le code CSS.
+4.3.11.1.	Vous devrez bien commenter vos sélecteurs qui utiliseront ce sélecteur avancé ( )
+/*4.4.	Le Conteneur No 3
+4.4.1.	Ce Conteneur HTML est de type : <div>
+4.4.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 3.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 3, si besoin il y a.
+4.4.3.	Ce conteneur contient une photo provenant du site Web du : Cégep de Granby.
+Pas une banderole ni un logo.  Une photo avec des personnes.   
+4.4.4.	Voir les consignes sur la page 1, concernant le dossier dans lequel enregistrer les images.
+(voir la Note : 0.8  et  0.9 )
+4.4.5.	L’image doit combler 100 % de son Conteneur parent, soit en largeur, soit en hauteur, soit les deux.
+Deux approches possibles pour ce type d’insertion d’image à l’intérieur d’un Conteneur pa-rent.
+Les deux approches n’utilisent pas les mêmes propriétés.  On ne peut ni combiner ni mixer les propriétés de chacune des deux approches.  Ces deux approches ont leurs avantages et leurs inconvénients.
+L’une des deux approches démarrent l’insertion d’une image via la balise HTML : <img>.  L’autre via la propriété CSS : « Background-image ».
+Avec la 1ère approche, vous avez la possibilité de gérer votre image avec des propriétés comme « fit-content ( ) »,  object-fit, etc.
+Avec la 2ième  approche, vous avez la possibilité de gérer votre image avec des propriétés comme « background-size », « background-position », etc.
+Concernant les deux approches, dans l’une comme dans l’autre, des défis se présenteront à vous.  Exemples, vous pourriez vous retrouver avec de petits espaces blancs entre une des bordures du Conteneur parent et l’image, ou encore, une distorsion de l’image (dû au fait que les proportions n’ont pas été maintenues lors du grossissement de l’image), etc.
+Quel que soit l’approche que vous utiliserez, vous devrez la  /* commentez    abondam-ment.*/
+/*N’oubliez pas le Conteneur doit avoir une bordure visible.  Quoi que vous décidiez de pro-grammer, n’oubliez pas que tout doit être : Responsive Design.  C’est l’objectif principal de ce TP-WEB-8
+4.5.	Le Conteneur No 4
+4.5.1.	Ce Conteneur HTML est de type : <div>
+4.5.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 4.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 4, si besoin il y a.
+4.5.3.	Ce Conteneur contient une « Liste »
+4.5.3.1.	de type ordonné
+4.5.3.2.	avec des chiffres romains majuscules
+4.5.3.3.	Contenu de la liste : La liste de tes cours au Cégep de Granby, pour la ses-sion en cours.
+4.5.3.4.	Titre de la liste : « Cours de TonPrénom  TonNomFamille »  dans un <p>
+exemple :   	Cours de Laurent 	Beauregard
+4.6.	Le Conteneur No 5
+4.6.1.	Ce Conteneur HTML est de type : <div>
+4.6.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 5.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 5, si besoin il y a.
+4.6.3.	Ce conteneur contient une photo libre de droits avec de belles couleurs d’automne    
+4.6.3.1.	Au-dessus de la balise, dans le HTML  et du  sélecteur,  dans le CSS, décrivez brièvement en  commentaire    l’image de la balise et  du sélecteur.
+/*4.6.4.	L’image doit combler 100 % de son Conteneur parent, soit en largeur, soit en hauteur, soit les deux.  Voir numéro : 3.4.5.
+4.7.	Le Conteneur No 6
+4.7.1.	Ce Conteneur HTML est de type : <aside>
+4.7.2.	Comme son nom l’indique, il s’agit d’un conteneur que l’on place sur le côté d’une page Web (sur grand écran).  Soit à gauche, soit à droite, soit les deux comme dans la page Web OmniVox du Cégep.  Pour savoir de quel côté le placer, pour ce TP-WEB-8, visionnez les plans au début de  ce document-ci.
+Outre cela, un conteneur <aside> fonctionne comme un conteneur <div>
+Exceptionnellement, ce conteneur sera disposé autrement sur les écrans de cellu-laires (voir la section 2)
+4.7.3.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 6.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 6, si besoin il y a.
+ 
+4.7.4.	Ce conteneur contient une photo libre de droits en lien avec votre loisir à vous   
+4.7.4.1.	Au-dessus de la balise, dans le HTML  et du  sélecteur,  dans le CSS, décrivez brièvement en  commentaire    l’image de la balise et  du sélecteur.
+4.7.5.	Ce Conteneur « aside » doit être positionné de façon: « Static » sur la page Web.
+4.7.6.	L’image doit combler 100 % de son Conteneur parent    Voir numéro 3.4.5.
+4.7.7.	 Proposition d’outils optionnels concernant la gestion des images.  
+Vous pouvez essayer les propriétés : background-size et object-fit
+avec des valeurs comme : « cover », « contain », . . .
+À essayer.   Documentez-vous sur le net.
+/* Pour ajuster les dimensions et les proportions des images à l’intérieur d’un Conteneur */
+/* Image de mon loisir dans le Conteneur « aside ». Technique :  « Responsive Design »  */
+/*.img_6_loisir {
+ width: 100%;
+ height: 100%;
+ object-fit: contain ; /*pour que l'image occupe le maximum du div, sur l’une des deux dimen-
+ }			 		 sions, en ajustant l’autre dimension pour maintenir le ratio des propor 					 tions
+4.8.	Le Conteneur No 7
+4.8.1.	Ce Conteneur HTML est de type : <div>
+4.8.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 7.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 7, si besoin il y a.
+4.8.3.	Dans ce conteneur vous insérez OBLIGATOIREMENT du texte bidon de type 
+« Lorem ipsum »  (Recherche Google )   
+4.8.4.	Pour insérer du « Lorem ipsum », à l’intérieur de votre code HTML, il suffit :
+4.8.4.1.	dans votre éditeur « VSC ,  à l’intérieur d’un conteneur comme <div> ou <p>, positionnez votre curseur»
+4.8.4.2.	taper :  lorem  suivi de la touche clavier <tabulation>.  Et voilà, c’est fait.
+4.8.5.	Le texte bidon « Lorem ipsum »   doit déborder  du Conteneur 7
+4.8.5.1.	 Vous pouvez aussi, à l’aide du site Web : https://loremipsum.io/fr/   géné-rer le nombre de paragraphes désirés de «  Lorem ipsum », puis effectuer un copier-coller vers votre code dans VSC.  Il y a beaucoup d’autres sites Web qui traite de « Lorem ipsum » .
+4.8.6.	Vous devez insérer une barre de défilement au Conteneur 7 pour gérer le débor-dement (l’overflow).      Revoir   Web-Leçon-04, pages 33 à 36, section :  « Gestion du déborde-ment ».
+4.9.	Le Conteneur No 8
+4.9.1.	Ce Conteneur HTML est de type : <div>
+4.9.2.	Visionner le plan de la page Web, pour donner une première dimension à ce conte-neur No 8.  Vous réajusterez en cours de construction, les dimensions de ce conte-neur 8, si besoin il y a.
+4.9.3.	Dans ce conteneur vous insérez OBLIGATOIREMENT du texte bidon de type « Lorem ipsum »  (Recherche Google, si besoin il y a)   
+4.9.4.	Le texte bidon « Lorem ipsum »  doit déborder  du Conteneur 8.  Vous pouvez ré-péter l’opération :  taper le mot  « lorem »  suivi de la touche clavier <tabulation> .
+4.9.5.	Vous devez insérer une barre de défilement au Conteneur 8 pour permettre à l’internaute de lire la totalité.
+4.10.	Le Conteneur No 9
+4.10.1.	Ce Conteneur HTML est de type : <footer>  signifiant : « pied de page ».
+4.10.2.	Visionner le plan de la page Web, pour donner une première dimension à ce con-teneur No 9.  Vous réajusterez en cours de construction, les dimensions de ce conteneur 9, si besoin il y a.
+4.10.3.	Contenu :  Auteur de la page Web     Tonprénom  TonNom  
+4.10.3.1.	Le nom de ce cours-ci  avec le code du cours
+4.10.3.2.	Symbole du Copyright (Recherche Google ) , l’année de réalisation
+4.10.3.3.	Le texte  suivant :    Aucune reproduction possible sans autorisation de l’auteur.
+4.10.3.4.	Le logo du Cégep de Granby.  Ce logo seulement dans le conteneur 9.
+4.10.4.	Le contenu doit être dans une police de caractère très originale de type : « Google-Font »
+4.10.5.	L’année de réalisation doit être soulignée.
+Il est à noter, que via le concept du Responsive Design, certains éléments ne figureront pas sur certains périphériques.
+5.	Instructions pour la construction de la page Web de ce TP-WEB-8
+5.1.	Lire attentivement la section 0, au début de ce document-ci
+5.2.	Lire attentivement : la description du sommaire de ce TP-WEB-8, le No 1 de ce document-ci
+5.3.	Visionner attentivement les plans de page Web pour chacun des trois périphériques
+5.4.	Lire attentivement la description des éléments que l’on retrouve dans la page Web de ce TP-WEB-8
+5.5.	Lire attentivement la Web-Leçon-8
+Note :  Avant de commencer ce numéro, lisez-le une fois au complet, sans rien faire.  Puis, re-prenez la lecture une seconde fois et procédez.
+5.6.	Concevez la page Web Responsive Design de ce TP-WEB-8, en utilisant les trois élé-ments indispensables.  Voir : numéro 1.5, à la page 2, de ce document-ci.
+5.7.	Commentez tout le contenu de vos codes : HTML  et  CSS
+5.8.	Le <title> dans votre <head> sera : « Responsive Design ».
+5.9.	Faite en sorte que votre page Web, soit aérée, et ce, peu importe le périphérique (Device)
+5.10.	Tous les conteneurs de votre page Web auront une toute petite marge extérieure  Res-ponsive Design.  Ajustez-vous à l’œil.
+5.11.	Produire le style CSS  selon votre créativité.  Les styles CSS devront différer d’un périphé-rique à l’autre ( Portable, Tablette et Cellulaire ).  Donc, d’un plan de page à un autre.
+ 
+5.12.	Enregistrez votre pgm HTML, sous : index.html
+5.12.1.	Enregistrez votre pgm .html à l’intérieur de votre dossier ResponsiveD_TonPrenom
+5.12.2.	Voir sur la page 1, pour le dossier parent de : ResponsiveD_TonPrenom
+5.13.	Enregistrez votre pgm CSS, sous : ResponsiveD.css
+5.13.1.	Enregistrez votre pgm .css à l’intérieur de votre sous-dossier : Styles
+5.13.2.	Le pgm CSS doit être lié ( <link> ) avec votre pgm HTML 
+5.14.	Publiez votre dossier Responsive_TonPrenom sur le Serveur Hébergeur Web du Cégep
+5.14.1.	Entrez le URL complet de votre page Web dans la case qui suit :	( -20  si ce n’est pas fait )
+
+*******************************************************************************************/
+body{
+    position: sticky;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /*justify-content: flex-start;*/
+    align-items: flex-start;
+    align-content: flex-start; 
+    height: 99.95%;
+}
+h3{
+    text-align: center;
+}
+h1{
+   margin-top:-2px;
+}
+header{
+    position: relative;
+    border: 1px blueviolet solid;
+    height: 65px;
+    background-image: url("../images/bandeau-page-cegep-vert.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #60CA99;border-radius: 12px;
+    color: rgb(255, 20, 103);
+    z-index: 1;
+}
+body,section,nav,header,footer{ /*gestion des dimensions dynamique*/
+    width: 100%;
+}
+header > h3{
+    margin-top: -22px; /*definition manuelle car je ne veux pas le centrer au milieu*/
+}
+header h1{
+    color:blue;
+}
+header > h3:hover{
+    width:36.254%; /*redimensionne la bulle au passe de la souris en un bouton ovale enfoncé style class java des annees 90*/
+    text-decoration: blueviolet;
+    text-shadow: plum 2px 2px 2p;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: burlywood;
+    border-style: inset;
+    background-color: lightgrey;
+    text-decoration-style: double;
+    font-stretch: extra-expanded, ultra-expanded;/*etire la pole d ecriture*/
+}
+footer{/*gestion personalisee du pied de page*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end; /*le met en bas*/
+    justify-content: left;
+    text-align: left;
+    width: 99.5%;
+    background-size:cover;
+    background-image:url("../images/MaRegionNatale.jpg");
+    background-repeat: no-repeat;
+    position:fixed;
+    top:93.1751%;
+    border:double;/*Ligne continue*/
+    border-color: #763d6a;/*ouleur vert foncée avec le mode hexadécimal*/
+    border-width:3.5px;/*d’une épaisseur de 3,5 pixels*/
+    height: 6%;
+}
+aside{/*gestion personalisee de aside*/
+    flex-basis: 16%;
+    position: relative;
+    background-color: coral;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: oblique;
+    background-image: url("../images/MaRegionNatale.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height:560px;
+    text-align: center;
+    margin-right: -5px;
+}
+section{/*gestion personalisee de section */
+    background-attachment: fixed;
+    background-color: burlywood;
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-decoration: double;   
+    border-bottom-right-radius:  8%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border-width: 2px;
+    border-style: groove;
+}
+article{
+    flex-basis: 83%;
+    border: 1px #60CA99 solid;
+}
+section{ /*gestion des parametres communs pour les conteneurs section*/
+    position: relative;
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    align-items:center;
+    align-content: stretch;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-content: space-around; 
+    justify-content:space-evenly;
+    justify-items: center;
+    border: 1px double #0000FF; 
+}
+/*gestion des <p> dans body->section->article */
+section>article>div[id="div3"],section>article>div[id="div4"],section>article>div[id="div5"]{
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width:200px;
+    height:300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-items: center;
+    justify-content: space-around;
+    margin-left: 2px;
+    color: blueviolet;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: outset;
+ }
+ section>article>div[id="div3"]{
+    background-color:#cab9ca ;
+     width: 30%;
+     background-size: cover;
+     background-position: top;
+     background-repeat: no-repeat;
+     background-image: url("https://scontent.fyhu1-1.fna.fbcdn.net/v/t39.30808-6/282002225_5256260114420395_7671830285736108771_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=aeadvcZZhGEAX8P0ZvD&_nc_oc=AQmsttx_FYBLompmbsdOf94KmH8Zt9Cs0mBbCVZ8EyWs5SuYsed59UgY-R8EqbM6OtQ&_nc_ht=scontent.fyhu1-1.fna&oh=00_AT-2aYAwf_cq0GGNwsv2_qF-zrjhf6JepFMeXLQM1_6d3w&oe=62A40001");
+ }
+section>article>div[id="div4"]{
+    background-color:#d9e9c4 ;
+    margin-top: 16px;
+    width: 30%;
+    color: blueviolet;
+ }
+ section>article>div[id="div4"]>ol{
+    background-color:#d9e9c4 ;
+    margin-top: 16px;
+    width: 100%;
+    color: blueviolet;
+    font-weight:200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+ }
+
+section>article>div[id="div5"]{
+    background-color:#add1f1 ;
+    color: blueviolet;
+    width: 30%;
+}
+section>article>div[id="div7"],section>article>div[id="div8"]{
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width:50%;
+    height: 180px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-items: center;
+    justify-content: space-around;
+    margin-left: 2px;
+    overflow: scroll;
+    color: blueviolet;
+}
+section>article>div[id="div7"]{
+    background-color:#f3d7b7 ;
+    width: 40.5%;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section>article>div[id="div8"]{
+    background-color:#ddbbdd ;
+    width: 40.5%;
+}
+p{
+    display: inline;/*<p> par defaut*/
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: maroon;
+}
+nav{
+    box-sizing: border-box;
+    text-align: center;
+    justify-items: center;
+    border: 3px solid;
+    border-radius: 3px;
+    margin: 2px; /*pour pas coller aux bordures et aerer le graphique*/
+    background-color: rgba(172, 100, 100, 0.721);
+    background-image: url("../images/VisualStudio.bin");
+    background-size: contain;
+    background-position: left;
+    background-repeat:round;
+}
+nav>div{
+    display: none;
+    width: 100%;
+}
+nav>p{/*Gestion des <p> dans le <nav>*/
+    display: inline-flex;
+    position: relative;
+    box-sizing:border-box;
+    flex-flow:row nowrap;
+    flex-basis: 22%;
+    align-items:center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-content: space-around; 
+    border-radius: 8%;
+    border: 1px saddlebrown solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/*test creation look skin avec transparences multiples*/
+nav>p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]{/*proprietees comune au <p> du menu <nav>*/
+    width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: rgba(180, 211, 255, 0.708);
+    background-image: url("../images/logoWin.bin"); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    border: blue 1px solid;
+    border-top-left-radius: 24%; /*transforme le <p> basique en une sorte de fleche*/
+    border-bottom-left-radius: 16%;
+    box-shadow: 1px 1px 1px 2px #60CA99;
+    padding-left: 9px; /*pousse le texte pour aligne avec le debut de la forme arrondi*/
+    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: normal;
+}
+p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]::first-letter{ /*design 1er lettre en majuscule ,gras, souligné et en bleu*/
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform:capitalize;
+}
+nav>p[id="a1"]{
+    color:rgb(114, 50, 5);
+}
+nav>p[id="a2"]{
+    color: rgb(70, 13, 13);;
+}
+nav>p[id="a3"]{
+    color:rgb(16, 50, 2);
+}
+nav>p[id="a4"]{
+    color:rgb(30, 54, 210);
+}
+/***************************
+instuctions menu Hamburger
+****************************/
+nav>div>input[type="button"] body>div>nav
+{
+    overflow: hidden;
+    position: relative;
+    border-color: chocolate;
+    border-width: 1px;
+    border-style: outset;
+    display: block;
+} 
+nav>div>input[type="button"]:active 
+{
+    overflow:scroll;
+    position: relative;
+    border-color: chocolate;
+    border-width: 1px;
+    border-style: outset;
+    background-color: aquamarine;
+}
+nav>div>div>input[type="button"]{
+    color:darkred;
+    text-transform: capitalize;
+}  
+div>nav>div>input[type="button"]:active {
+    color: white;
+    background-color: rgb(251, 245, 67);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}  
+nav>div>div>input[type="button"]:hover {
+    margin-top: 6px;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #ddd;
+    border-radius: 22px;
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: double;
+    color:indigo;
+}
+/***************************
+Pilotage via Media Queries
+****************************
+2.6.	Vous devez respecter les trois dispositions de la page Web décrites dans ce document, se-lon qu’elle sera visionnée : 
+2.6.1.	sur un écran d’ordinateur portable,
+2.6.2.	sur un écran de tablette électronique
+2.6.3.	sur un écran de téléphone cellulaire. 
+
+***********************
+Disposition celullaire
+***********************/
+@media screen and (max-width:680px) {
+    body{
+        background-color: antiquewhite;
+    }
+    nav>div{
+        display: block;
+    }
+    nav>p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]{/*proprietees comune au <p> du menu <nav>*/
+        width: 100%;
+        margin:0;
+        flex-grow: 1;
+        flex-shrink: 0;
+        height: 16%;
+     }
+    header{
+        display: none;
+        position: sticky;
+    }
+    header > h3{
+        margin-top: -14px; /*definition manuelle car je ne veux pas le centrer au milieu*/
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: smaller;
+    }
+    header h1{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color:blue;
+    }
+    nav{
+        background-image: url("../images/bandeau-page-cegep-vert.jpg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+    section{
+         border-radius: 12px;  
+    }
+    article{
+        flex-basis: 100%;
+        border: 1px #60CA99 solid;
+    }
+    /*gestion des <div> dans body->section->article */
+    section>article>div[id="div5"]{
+        display: none;
+    }
+    section>article>div[id="div3"],section>article>div[id="div4"],section>article>div[id="div7"],section>article>div[id="div8"]{
+        height: 100px;
+        width: 93%;
+    }
+    section>article>div[id="div7"]{
+        background-color:#f3d7b7 ;
+        color: crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        height: 16%;
+    }
+    section>article>div[id="div8"]{
+        background-color:#ddbbdd ;
+     }
+    footer{
+        display: none;
+    }
+    aside{
+        image-rendering: crisp-edges;
+        height: 16%; 
+        width: 100%;    
+        background-size: cover;
+    }
+}
+/*******************
+Disposition tablette
+*******************/
+@media screen and (min-width:681px)and (max-width:1279px) {
+    body{
+        background-color: antiquewhite;
+    }
+     nav>div{
+        display: none;
+    }
+    header > h3{
+        margin-top: -14px; /*definition manuelle car je ne veux pas le centrer au milieu*/
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: smaller;
+    }
+    article{
+        flex-basis: 100%;
+        border: 1px #60CA99 solid;
+    }
+    /*gestion des <p> dans body->section->article */
+    section>article>p[id="div3"],section>article>p[id="div4"]{
+        flex-grow: 1;
+        flex-shrink: 0;
+        justify-items: center;
+        justify-content: space-around;
+        margin-left: 2px;
+        color: blueviolet;
+        width: 44%;
+        padding: 5%;
+        height: 16%;
+     }
+    section>article>p[id="div3"]{
+        background-color:#cab9ca ;
+     }
+    section>article>p[id="div4"]{
+        background-color:#d9e9c4 ;
+         color: blueviolet;
+     }
+    section>article>p[id="div5"]{
+        display: none;
+        background-color:#add1f1 ;
+        color: blueviolet;
+        width: 30%;
+    }
+    section>article>div[id="div7"],section>article>div[id="div8"]{
+        width: 88%;
+        padding: 5%;
+        height: 16%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        justify-items: center;
+        justify-content: space-around;
+        margin-left: 2px;
+        overflow: scroll;
+        color: blueviolet;
+     }
+    section>article>div[id="div7"]{
+        background-color:#f3d7b7 ;
+        color: crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    section>article>div[id="div8"]{
+        background-color:#ddbbdd ;
+     }
+    footer{
+        display: none;
+    }
+    nav>p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]{
+        justify-items: center;
+        justify-content: space-around;
+        width: 46%;
+        margin:0;
+        flex-grow: 1;
+        flex-shrink: 0;
+        height: 16%;
+    }
+
+}
+/**********************
+Disposition ecran dórdi
+***********************/
+@media screen and (min-width:1280px) {
+    body{
+        background-color:blueviolet;
+    }
+    body,section,nav,header,footer{ 
+        width: 100%;
+    }
+    header > h3{
+        margin-top: -22px; 
+    }
+    header h1{
+        color:blue;
+    }
+    header > h3:hover{
+        width:36.254%; 
+        border-radius: 50%;
+        border-width: 1px;
+    }
+    header{
+        height: 65px;
+        z-index: 1;
+    }
+    footer{
+        width: 99.5%;
+        position:fixed;
+        top:93.1751%;
+        height: 6%;
+    }
+    aside{
+        flex-basis: 16%;
+        height:560px;
+        text-align: center;
+        margin-right: -5px;
+    }
+    section{
+        border-bottom-right-radius:  8%;
+        border-top-right-radius: 8%;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        border-width: 2px;
+    }
+    article{
+        flex-basis: 83%;
+    }
+    section>article>div[id="div3"],section>article>div[id="div4"],section>article>div[id="div5"]{
+        width:200px;
+        height:300px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin-left: 2px;
+        color: blueviolet;
+    }
+    section>article>div[id="div3"]{
+        background-color:#cab9ca ;
+        width: 30%;
+    }
+    section>article>div[id="div4"]{
+        background-color:#d9e9c4 ;
+        margin-top: 16px;
+        width: 30%;
+        color: blueviolet;
+    }
+   section>article>div[id="div5"]{
+        background-color:#add1f1 ;
+        color: blueviolet;
+        width: 30%;
+    }
+    section>article>div[id="div7"],section>article>div[id="div8"]{
+        width:50%;
+        height: 180px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        justify-items: center;
+        justify-content: space-around;
+        margin-left: 2px;
+        overflow: scroll;
+        color: blueviolet;
+    }
+    section>article>div[id="div7"]{
+        background-color:#f3d7b7 ;
+        width: 40.5%;
+        color: crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    section>article>div[id="div8"]{
+        background-color:#ddbbdd ;
+        width: 40.5%;
+    }
+    nav>div{
+        display: none;
+        width: 100%;
+    }
+    nav>p{
+        flex-basis: 22%;
+        align-items:center;
+        flex-shrink: 1;
+        flex-grow: 1;
+        align-content: space-around; 
+        border-radius: 8%;
+        border: 1px saddlebrown solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    nav>p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]{
+        width: 22%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        padding-left: 9px; 
+        margin-right: 5px;
+        font-family: 'Times New Roman', Times, serif    ;
+        font-weight: normal;
+    }
+    p[id="a1"],nav>p[id="a2"],nav>p[id="a3"],nav>p[id="a4"]::first-letter{
+        color: blue;
+        font-weight: bolder;
+        text-decoration: underline;
+        text-transform:capitalize;
+    }
+}

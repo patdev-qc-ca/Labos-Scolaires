@@ -1,0 +1,280 @@
+/*
+    Patrice Waechter-Ebling 
+    création 23-05-2022
+    mise à jour 0
+*/
+
+/***************************************
+* Communs a tous 
+*****************************************/
+
+*{
+    padding: 2px;
+}
+:root{ /* initialisons la page web*/
+    position: static;
+    border: #2d5c19 3px dotted; /*delimiter l'espace Web*/
+    padding: 0px;
+    margin: 0px;
+    font-variant: normal;
+    text-transform: none;
+    justify-content: left;
+    width: 98.7845%;
+    height: 97.3125%;
+}
+.bordureNoire{
+   border: 1px solid #000000;
+
+}
+.flex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+.flex body{
+    top:-6px;
+    left:-12px;
+     width: 99%;
+    border: #4dff01 3px double; /*delimiter l'espace Web*/
+    font-variant: normal;
+    text-transform: none;
+    justify-content: left;
+    height: 94%;
+}
+nav{ /*volet de navigation*/ 
+      top:15.1871%; /*hauteur de placement su volet de navigation*/
+     border-radius: 2%; /*arrondi de la bordure*/
+     border-color: chartreuse;/*couleur de la bordure*/
+     border-width: 2px;/*epaisseur bordure*/
+     border-style: ridge;/*effet 3D de la bordure*/
+     align-content: flex-start;
+     justify-content:space-around;
+     flex-basis: 20%;
+     height: 5%;
+     left: 0px; 
+ }
+ .flex section{
+    top: 55px;
+    left:100%;
+     border-radius: 3%; /*arrondi de la bordure*/
+    border-color:darkolivegreen;/*couleur de la bordure*/
+    border-right-width: 2px;/*epaisseur bordure*/
+    border-style: outset;/*effet 3D de la bordure*/
+    /*est il bien utile de commenter la section Flexbox????*/
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content:space-around;
+    height: 64.9645%; 
+    width: 80%;
+}
+.PleineLargeur
+{
+     width: 99.245%;
+}
+ .div1>img /* ajustement de l'image dans la banniere*/
+ {
+     height: 12%;
+  object-fit:contain;
+ }
+
+.flex .ConteneurGrandParent
+{
+    flex-basis:98%;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: stretch;
+    justify-items: flex-start;
+}
+header{ /*Entete*/
+    position:relative;
+    top:-12px;
+    left: -12px;
+    width: 102%;
+    height: 25px;/*hauteur de léntete*/
+     border-color: #82e3ea;/*De couleur bleu ciel avec le mode hexadécimal*/
+    border-width:3.5px;/*d’une épaisseur de 3,5 pixels*/
+    background-color: #60CA99;/*couleur de fond*/
+    background-image:url("./bandeau-page-cegep-vert.jpg");/* image en arrière-plan*/
+    background-size:  32%;/*taille de l'image*/
+    background-repeat: no-repeat;/*repetion image =0*/
+    background-position-x: right;/*colle límage a droite*/
+}
+.bordureNoire footer{
+    position:relative;
+    top: 95%;
+    left: -12px;
+    width: 102%;
+    height: 25px;/*hauteur de léntete*/
+
+}
+.souligne{
+    text-decoration: underline;
+}
+.marge{
+    margin: 3px;
+}
+.espace{
+    padding: 5px;
+}
+.divA
+{
+  background-color:#ccc6c663 ;
+  color: darkblue;
+  width: 24%;
+}
+.divB
+{
+    background-color:#99FF66 ;
+    color: #081801;
+    width: 24%;
+}
+.divC{
+    background-color:#FFFF00 ;
+    color: chocolate;
+    width: 24%;
+}
+.divD{
+    background-color:#c48cc4 ;
+    color: blueviolet;
+    width: 24%;
+}
+.div3{    
+    background-color:#cab9ca ;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 60%;
+}
+.div4{    background-color:#d9e9c4 ;
+    margin-top: 8px;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 59%;
+}
+.div5{
+    background-color:#add1f1 ;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 60%;
+
+}
+.ConteneurParent{
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    align-items:center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-content: space-around; 
+    justify-content:space-evenly;
+    justify-items: left;
+    border: 3px double #0000FF;
+    flex-basis: 75%;
+}
+.div6{    
+    background-color:#eeedba ;
+    flex-basis: 15%;
+    height: 99%;
+    color: blueviolet;
+}
+.div7{    
+    background-color:#f3d7b7 ;
+    flex-basis: 48%;
+    height:32%;
+    color: blueviolet;
+}
+.div8{    
+    background-color:#ddbbdd ;
+    flex-basis: 48%;
+    height:32%;
+    color: blueviolet;
+}
+.ItemEnfant{ /*controle les boite A,B,C,D du menu nav */
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    flex-basis: 22%;
+    align-items:center;
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-content: space-around; 
+    border: 3px double #0000FF;
+    border-radius: 8%;
+}
+.ItemEnfantSection{ /*controle les boite 3,4,5,6,7,8 de section  */
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    flex-basis: 24%;
+    align-items:center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-content: space-around; 
+    border: 3px double #0000FF;
+    border-radius: 8%;
+}.couleur_rouge{
+    color:#FF0000;
+}
+.couleur_mauve{
+    color:#8D3F8D;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: screen;
+        background-color: aqua;
+        font-family: Verdana;
+        font-size: x-small;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        width: screen;
+        background-color:cornflowerblue;
+        font-family: Verdana;
+        font-size: small;       
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        width: screen;
+        background-color:blue;
+        font-family: Verdana;
+        font-size:medium;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{ /*delimiter l'espace Web de body*/
+        width: screen;
+        background-color:blueviolet;
+        font-family: Verdana;
+        font-size:large;
+        height: 98.7768%;
+        font-size: 12pt;
+        font-weight: normal;
+        font-display:calc(fallback);
+         
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        width: screen;
+        background-color:blueviolet;
+        font-family: Verdana;
+        font-size: larger;
+    }
+
+}

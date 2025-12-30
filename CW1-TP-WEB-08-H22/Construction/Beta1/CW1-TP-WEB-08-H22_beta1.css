@@ -1,0 +1,376 @@
+/*
+    Patrice Waechter-Ebling 
+    création 16-05-2022
+    mise à jour 3 du 23/05/2022
+
+*/
+
+div
+{ /*mets une bordure a tous les div*/
+    border: #0000FF 1px solid;
+}
+body
+{
+    position:fixed;
+  font-family: 'Trebuchet MS', sans-serif; 
+    font-size: 12pt;
+    font-weight: normal;
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+   /*Positionnement dans la zone Root*/
+    margin:0px;
+    padding:0px;
+     width: 99.785%;
+    height: 97.569%;
+    border-width: 2px;
+  /*  text-decoration: none;*/
+}
+footer{
+    text-align: left;
+    background:radial-gradient(closet-side at 8% 15%,rgba(125, 241, 125, 0.301),rgba(49, 172, 76, 0.623) 35%,rgba(7, 102, 7, 0.822) 55%); /*couleur de fond*/
+    position:absolute;
+    top:89.8751%;
+    border:double;/*Ligne continue*/
+    border-color: #0a2b01;/*ouleur vert foncée avec le mode hexadécimal*/
+    border-width:3.5px;/*d’une épaisseur de 3,5 pixels*/
+    /*Le dégradé va toucher le côté le plus proche de son centre.*/
+     /*vertical-align: middle; /*centrage vertical*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*align-items: stretch;*/
+    align-content: flex-end; /*le met en bas*/
+    justify-content: left;
+    height: 8.972%;
+}
+footer >p {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #8D3F8D;
+    content:"test texte footer";
+}
+/*Il faut tenir compte que le conteneur nav est a la fois parent et enfant
+    enfant de body
+    parent de A,B,C,D
+*/
+nav{ /*volet de navigation*/ 
+   position: absolute;
+    top:14.1871%; /*hauteur de placement su volet de navigation*/
+    border-radius: 2%; /*arrondi de la bordure*/
+    border-color: chartreuse;/*couleur de la bordure*/
+    border-width: 2px;/*epaisseur bordure*/
+    border-style: ridge;/*effet 3D de la bordure*/
+    /*est il bien utile de commenter la section Flexbox????*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content:center;
+    height: 35px; 
+    margin-right: 5px;
+}
+nav,p{
+    height: 20%;
+    justify-content: center;
+    align-content: space-between;
+}
+/*Il faut tenir compte que le conteneur section est a la fois parent et enfant
+    enfant de body
+    parent de 3,4,5,6,7,8
+*/
+section{
+    top:22.1735%;
+    position: absolute;
+    border-radius: 3%; /*arrondi de la bordure*/
+    border-color:darkolivegreen;/*couleur de la bordure*/
+    border-right-width: 2px;/*epaisseur bordure*/
+    border-style: outset;/*effet 3D de la bordure*/
+    /*est il bien utile de commenter la section Flexbox????*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content:space-around;
+    height: 64.9645%; 
+}
+.ChangerTexte{
+    text-indent: -9999px;
+    line-height: 0;
+}.divA
+{
+  background-color:#ccc6c663 ;
+  color: darkblue;
+}
+.divB
+{
+    background-color:#99FF66 ;
+    color: #081801;
+}
+.divC{
+    background-color:#FFFF00 ;
+    color: chocolate;
+}
+.divD{
+    background-color:#c48cc4 ;
+    color: blueviolet;
+
+}
+.PleineLargeur
+{
+     width: 99.245%;
+}
+ .div1 img /* ajustement de l'image dans la banniere*/
+ {
+  object-fit: contain;
+ }
+
+.ConteneurGrandParent
+{
+    display: flex;
+    flex-basis:98%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: stretch;
+    justify-items: flex-start;
+}
+
+.div1{ /*Entete*/
+    position:solid;
+    top:0px;
+   flex-basis: 102%;
+    border:solid;/*Ligne continue*/
+    border-color: #82e3ea;/*De couleur bleu ciel avec le mode hexadécimal*/
+    border-width:3.5px;/*d’une épaisseur de 3,5 pixels*/
+    background-color: #60CA99;/*couleur de fond*/
+    background-image:url("./bandeau-page-cegep-vert.jpg");/* image en arrière-plan*/
+    background-size:  32%;/*taille de l'image*/
+    background-repeat: no-repeat;/*repetion image =0*/
+    background-position-x: right;/*colle límage a droite*/
+    height:12%;/*hauteur de léntete*/
+}
+
+.souligne{
+    text-decoration: underline;
+}
+.marge{
+    margin: 3px;
+}
+.espace{
+    padding: 5px;
+}
+
+.div3{    
+    background-color:#cab9ca ;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 60%;
+}
+.div4{    background-color:#d9e9c4 ;
+    margin-top: 8px;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 59%;
+}
+.div5{
+    background-color:#add1f1 ;
+    flex-basis: 31%;
+    color: blueviolet;
+    height: 60%;
+
+}
+.ConteneurParent{
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    align-items:center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-content: space-around; 
+    justify-content:space-evenly;
+    justify-items: left;
+    border: 3px double #0000FF;
+    flex-basis: 75%;
+}
+.div6{    
+    background-color:#eeedba ;
+    flex-basis: 15%;
+    height: 99%;
+    color: blueviolet;
+}
+.div7{    
+    background-color:#f3d7b7 ;
+    flex-basis: 48%;
+    height:32%;
+    color: blueviolet;
+}
+.div8{    
+    background-color:#ddbbdd ;
+    flex-basis: 48%;
+    height:32%;
+    color: blueviolet;
+}
+.ItemEnfant{ /*controle les boite A,B,C,D du menu nav */
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    flex-basis: 22%;
+    align-items:center;
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-content: space-around; 
+    border: 3px double #0000FF;
+    border-radius: 8%;
+}
+.ItemEnfantSection{ /*controle les boite 3,4,5,6,7,8 de section  */
+    display: flex;
+    box-sizing:border-box;
+    flex-flow:row wrap;
+    flex-basis: 24%;
+    align-items:center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-content: space-around; 
+    border: 3px double #0000FF;
+    border-radius: 8%;
+}.couleur_rouge{
+    color:#FF0000;
+}
+.couleur_mauve{
+    color:#8D3F8D;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*************************************
+* options en fonction des resolutions
+**************************************/
+
+
+/* Extra small devices (600px&-) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: screen;
+        background-color: aqua;
+        font-family: Verdana;
+        font-size: x-small;
+    }
+    nav{
+        padding-left: 2;
+        top:1px;
+        height: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+   .ChangerTexte::after {
+        content: "Résolution inférieure à 600px";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+    }
+    .ConteneurParent{
+        flex-direction: column;
+        width: 80%;
+        flex-basis: 15px;
+    }
+     .div3,.div4,.div6{
+        width: 500px;
+        height: 20%;
+    }
+    .divA, .divB,.divC,.divD{
+        display: block;
+        width:100%;
+        padding-left: 20px;
+        height: 12px;
+        text-align: center;
+        flex-grow: 1;
+        font-size: xx-small;
+       justify-content:flex-start;
+    }
+    footer, header,.div5{
+        visibility: hidden;
+    }
+}
+
+/* Small devices (600px&+) */
+@media only screen and (min-width: 600px) {
+    body{
+        width: screen;
+        background-color:cornflowerblue;
+        font-family: Verdana;
+        font-size: small;       
+    }
+    .ChangerTexte::after {
+        content: "Résolution supérieure à 600px";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+    }
+}
+
+/* Medium devices (768px &+) */
+@media only screen and (min-width: 768px) {
+    body{
+        width: screen;
+        background-color:blue;
+        font-family: Verdana;
+        font-size:medium;
+   }
+   .ChangerTexte::after {
+        content: "Résolution supérieure à 768px";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+    }
+
+}
+
+/* Large devices (992px &+) */
+@media only screen and (min-width: 992px) {
+    body{ /*delimiter l'espace Web de body*/
+        width: screen;
+        background-color:blueviolet;
+        font-family: Verdana;
+        font-size:large;
+        height: 98.7768%;
+        font-size: 12pt;
+        font-weight: normal;
+        font-display:calc(fallback);        
+    }
+    .ChangerTexte::after {
+        content: "Résolution supérieure à 992px";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+    }
+    .divA,.divB,.divC,.divD{
+        width: 44%;
+    }
+
+
+
+
+}
+
+/* Extra large devices ( 1200px &+) */
+@media only screen and (min-width: 1200px) {
+    body{
+        width: screen;
+        background-color:blueviolet;
+        font-family: Verdana;
+        font-size: larger;
+    }
+    .ChangerTexte::after {
+        content: "Résolution supérieure à 1200px";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+    }
+
+}

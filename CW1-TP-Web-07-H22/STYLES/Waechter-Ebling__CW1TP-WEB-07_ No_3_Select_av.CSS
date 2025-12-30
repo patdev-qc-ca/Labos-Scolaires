@@ -1,0 +1,75 @@
+/*Positionne bien le body aux coordonnees (0,0)*/
+body{
+    margin: 0;
+    padding: 0;    
+ /*option pratique si je veut mettre une image qui bouge pas comme arriere plan*/   
+ position:fixed; 
+}
+a[target]{
+   text-decoration: underline;
+}
+a[target="_blank"]{ /* personalisation de l attribut target du hyperlien*/
+    font-weight: bolder; /* mets en gros gras*/
+    color: #FF78AE; /*change de couleur pendant le codage pour le diferencier*/
+ }
+h1{
+    color: #2F528F;/*colorie le texte du titre de niveau 1*/
+}
+h2{
+   color: #ED7D31;/*colorie le texte du titre de niveau 2*/
+}
+h3{
+    color: #20BA66;/*colorie le texte du titre de niveau 3*/
+}
+div > h4{
+    margin-top: 0px; /*ajuste la hauteur du <h4>*/
+    text-align: center;/*Aligne le texte au centre du titre de niveau 4*/
+    color: #94649E; /*colorie en mauve*/
+}
+div + p{ 
+    margin: 3px;/* ai mis la marge externe du paragraphe hors div ici (coder efficacement)*/
+    padding:  4px;
+    color:#6FD2F7;/* applique du bleu pale au 1er <p> de meme niveau que le <div>*/
+}
+ol , li{
+  font-weight:bolder; /*mets les numeros des puce en gras */
+}
+
+.dv_ti li{
+   font-weight:normal; /*contre les autres item des liste en gras*/
+}
+ol{
+    margin-left: -20px;/*aligne les liste sur la bordure orange de <div>*/
+}
+li > span{/*applique du mauve aux items liste sans toucher a la couleur des puces*/
+    color: #94649E;
+}
+/*<div>*/
+/*
+conteneur parent: <body>
+conteuneur grand parent <html>
+*/
+.dv_ti p{
+   margin: 3px;/*marge exterieur a tous les paragraphes dans div*/
+    padding: 4px;/*marge exterieur a tous les paragraphes dans div*/
+    color:#FF78AE ;/*mise en couleur des paragraphe <p>dans div*/
+}
+/* Ici, À l’aide de la technique    ‘’sélection d’un élément par rapport à un autre‘’,
+les déclarations de style sont affectées aux éléments de type : 
+‘’puces ordonnées’’, de 1er niveau, enfant du <div>,  associé à la class : dv_ti  */
+.dv_ti{
+    margin-top: -20px;/*remonte le div de 20px pour l'aligner sous le <H3>*/
+    background-color: #FFFF99; /*couleur de fond*/ 
+    border-color:#ED7D31 ;/*couleur*/
+    width:  280px;/*largeur de <div>*/
+    height:210px;/*hauteur de <div>*/
+    border-radius: 26px;/*rayon de láarrondi pour la bordure*/
+    border-width: 6px; /*epaisseur de la bordure*/
+    border-style: solid; /*style de bordure*/
+}
+.enVert{/* classe qui applique du vert*/
+     color:#18B756;
+}
+#enGras{/* classe qui applique du gras*/
+    font-weight: bold;
+}

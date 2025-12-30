@@ -1,0 +1,136 @@
+/*Positionne bien le body aux coordonnees (0,0)*/
+body{
+    margin: 0;
+    padding: 0;
+    /*option pratique si je veux mettre une image qui bouge pas comme arriere plan 
+    mais l'avantage principal est que ca delimite une zone graphique du navigateur paliant a la hauteur infinie de body
+    de ce fait JE PEUX ELABORER UN ALGO QUI ME PERMETTE d' exprimer les hauteurs en % 
+    ben pratique pour dynamique */      
+    position:fixed;  
+
+}
+/*
+À l’aide OBLIGATOIREMENT de la technique de sélection :  « à l’aide d’un  Attribut »
+qui ne doit pas être : « target », appliquez le CSS  illustré (en haut de la page 2) à l’hyperlien ,
+ à l’intérieur du Titre de niveau 2.  Pour la couleur en hexadécimal, consultez un outil de cou-leur.  
+ Appliquez une autre couleur de votre choix à l’hyperlien, très différente de la couleur standard normalement
+ affectée aux hyperliens.
+*/
+
+a[target]{
+    color: chocolate;/*ben oui j'adore le chocolat*/
+   text-decoration: underline;
+}
+/* personalisation de l attribut target du hyperlien SSI la valeur de target corespond a 
+_blank ou blank les 2 sont equivalent
+dans le code du navigateur : #define blank _blank (API GOOGLE C++)*/
+a[target="_blank"]{ 
+    font-weight: bolder; /* mets en gros gras*/
+    color: #FF78AE; /*change de couleur pendant le codage pour le diferencier*/
+ }
+/*
+2.2.3.	Reproduisez exactement toutes ces couleurs de ce numéro 2, en hexadécimal, 
+à l’aide des outils de couleurs que nous vous fournissons dans LEA.
+Attention !  Vos couleurs doivent être exactement les mêmes que celles 
+en haut de la page 2, c’est pourquoi vous aurez besoin d’utiliser des outils de couleurs.
+*/
+ h1{
+    color: #2F528F;/*colorie le texte du titre de niveau 1*/
+}
+h2{
+   color: #ED7D31;/*colorie le texte du titre de niveau 2*/
+}
+h3{
+    color: #20BA66;/*colorie le texte du titre de niveau 3*/
+}
+
+div > h4{
+    margin-top: 0px; /*ajuste la hauteur du <h4>*/
+    text-align: center;/*Aligne le texte au centre du titre de niveau 4*/
+    color: #94649E; /*colorie en mauve*/
+}
+/*
+3.9.1.	Dans Visual Studio Code, juste au-dessus de cette classe, en commentaire, indiquez :
+3.9.1.1.	le nom de l’Élément HTML associé à cette class;
+ element <p>
+3.9.1.2.	Sa localisation, c’est-à-dire : son conteneur parent et son conteneur grand-parent
+parent <div>
+grand parent <body>
+*/
+div + p{ /*Un 3è paragraphe à l’extérieur du <div>  en italique (CSS), en bleu pâle et en gras*/
+    /*3.9.	Insérez une marge intérieure de 4 pixels à tous les paragraphes  à l’intérieur du <div>
+    avec une seule déclaration associée à une class.
+    OUI je n ais pas mis ca dans une classe externe pour raison coder efficacement hein Laurent*/
+    padding:  4px;
+    /*
+    3.10.	Insérez une marge extérieure de 3 pixels à tous les paragraphes avec une seule déclaration associée à une class.
+    */  
+    margin: 3px;/* ai mis la marge externe du paragraphe hors div ici (coder efficacement)*/
+    color:#6FD2F7;/* applique du bleu pale au 1er <p> de meme niveau que le <div>*/
+    font-style: italic;
+    font-weight: bold;
+}
+/*Note : Si la couleur d’une puce diffère de celle associée au texte qui suit la puce, pour le moment,  ne perdez pas de temps à tenter d’harmoniser les couleurs.  À ce stade-ci, je vais vivre avec ça.
+[ ( Exemple :   ii. Maison )  La puce « ii » est noire et le texte « Maison » est vert. ]
+*/
+ ol , li{
+  font-weight:bolder; /*mets les numeros des puce en gras */
+  /*solution brutale mais efficace pour mettre les couleurs au chiffres des puces*/
+  color:#000; 
+}
+li{
+    font-weight:normal; /*contre les autres item des liste en gras*/   
+}
+
+ol{
+    margin-left: -20px;/*aligne les liste sur la bordure orange de <div>*/
+}
+li > span{/*applique du mauve aux items liste sans toucher a la couleur des puces*/
+    color: #94649E;
+}
+/*gere les <P> enfants du <div>*/
+.dv_ti p{
+   margin: 3px;/*marge exterieur a tous les paragraphes dans div*/
+    padding: 4px;/*marge exterieur a tous les paragraphes dans div*/
+    color:#FF78AE ;/*mise en couleur des paragraphe <p>dans div*/
+    font-weight: bold;/*en gras*/
+}
+/* Ici, À l’aide de la technique    ‘’sélection d’un élément par rapport à un autre‘’,
+les déclarations de style sont affectées aux éléments de type : 
+‘’puces ordonnées’’, de 1er niveau, enfant du <div>,  associé à la class : dv_ti  */
+/*<div>*/
+/*
+2.2.1.	L’arrière-plan du <div> est jaune très pâle.
+2.2.2.	Reproduisez la bordure du <div> :  style, épaisseur, couleur, courbure des coins
+conteneur parent: <body>
+conteuneur grand parent <html>
+*/
+/*
+PERSO:: le point 1.4 associea a une classse n'est pas optimal
+on pourrait parfaitement ecrire 
+body>div au lieu de .dv_ti
+*/
+.dv_ti{
+    margin-top: -20px;/*remonte le div de 20px pour l'aligner sous le <H3>*/
+    background-color: #FFFF99; /*couleur de fond*/ 
+    border-color:#ED7D31 ;/*couleur*/
+ /*3.7.	Le conteneur  <div> doit être de dimension suffisamment grande pour contenir tout le contenu écrit*/
+    width:  280px;/*largeur de <div>*/
+ /*   3.8.	La dimension du conteneur  <div> doit être adapté au contenu.  Cela signifie qu’il ne doit pas être plus grand inutilement.  Juste la grandeur nécessaire, ni trop grand ni trop petit.
+    Obligatoire : « Dans votre code, commentez comment vous « adaptez la dimension du contenu au conteneur <div> ». 
+    Expliquez le fonctionnement.
+    element occupant le plus grand espace dans le div + marges + bading +deco = taille max
+    pour la hauteur le mem principe mais sur l' axe Y =rayon de l'arondi
+    */
+    height:210px;/*hauteur de <div>*/
+    border-radius: 26px;/*rayon de láarrondi pour la bordure*/
+    border-width: 6px; /*epaisseur de la bordure*/
+    border-style: solid; /*style de bordure*/
+    font-weight: bold; /*texte en gras*/
+}
+
+/*3.3.	À l’aide de la technique « sélection d’un élément par rapport à un autre »*/
+body>div>ol>li{
+        color:#18B756;
+        font-weight: bold;
+}

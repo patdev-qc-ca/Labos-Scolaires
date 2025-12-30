@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Waechter-Ebling_CW1-TP-WEB-07_No5_Pseudo-Element</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="../Images/Patrice.bin">
+        <!--5.4.	Liez ( <link> ) le pgm CSS :  « VotreNomFamille_CW1TP-WEB-07_No5_ Pseudo-Element.CSS », 
+avec votre pgm HTML du numéro 5.2. soit : VotreNomFamille_CW1TP-WEB-07_No5_Pseudo-Element.html -->
+		<link rel="stylesheet" href="../STYLES/Waechter-Ebling_CW1-TP-WEB-07_No5_Pseudo-Element.CSS">
+        <!--declarations pour les polices google depuis Internet-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap "rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Modak&displayfamille=Markazi+Texte&=swap "rel="stylesheet">
+	</head>
+        
+	<body>
+        <h1>CONCEPTION WEB – 1</h1><!--Titre de niveau 1-->
+        <!--1.7.	Tel qu’illustré, à l’intérieur du Titre de niveau 2, effectuez un hyperlien sur le mot : « Cégep ».-->
+        <h2>Site Web du <!--Titre de niveau 2  avec  hyperlien-->
+            <a href="https://cegepgranby.ca/" target="_blank"><!--1.7.1.	Dans le navigateur, le site Web du Cégep doit s’ouvrir sur un nouvel onglet-->
+                Cégep             
+            </a>
+            de Granby
+        </h2>
+        <h3> DÉPARTEMENT D’INFORMATIQUE</h3><!--Titre de niveau 3-->
+       <div class="dv_ti"><!--1.4.	Le <div> doit être associée à une class nommé : dv_ti-->
+           <h4>PROFESSEURS / COURS /</h4><!--1.6.1.	Un Titre de niveau 4-->
+           <!--1.6.2.1.	Dans Visual Studio Code, insérez des commentaires  de type HTML. 
+            Décrivez le code de ces deux niveaux de liste imbriquées.  -->
+           <ol type="1" >
+               <!-- Puce ordonnée de 1er niveau 
+            liste en chiffre arabe-->
+               <li>Session-1</li>
+               <!--Puces ordonnées de 2ème niveau
+            chiffre romain minuscule-->
+               <ol type="i">
+                    <li>
+                        <span >Laurent</span>
+                    </li>
+                    <li>
+                        <span>Jie</span>
+                    </li>
+                    <li>
+                        <span>Régis</span>
+                    </li>
+                    <li>
+                        <span>Charles</span>
+                    </li>
+                 </ol>
+           </ol>
+           <!--1.6.3.	Deux paragraphes  à l’intérieur du <div>  associé à la class dv_ti-->
+           <p id="enGras">Nous vous souhaitons la bienvenue !</p><!--Un premier paragraphe écrit en rose et en gras (CSS), à l’intérieur du <div>-->
+           <p id="enGras">L’effort produit les Forts !</p><!--Un deuxième paragraphe écrit en rose et en gras (CSS), à l’intérieur du <div>-->
+        </div>
+        <p>Bon succès, bonne session !</p><!--Un 3è paragraphe à l’extérieur du <div>  en italique (CSS), en bleu pâle et en gras-->
+ 	</body>
+</html>

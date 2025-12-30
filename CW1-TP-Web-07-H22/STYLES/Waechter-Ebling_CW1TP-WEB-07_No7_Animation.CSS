@@ -1,0 +1,114 @@
+body
+{
+  position: absolute;
+  margin:0px;
+  padding: 0px;
+  background-color:#EAF7EB; ;
+  width: 99.5%;
+  height:99%;
+}
+body > h1,h2{
+     text-align: right;
+}
+h1{
+   margin-top: -6px;
+    color: #2F528F;/*colorie le texte du titre de niveau 1*/
+}
+h2{
+    margin-top: -14px;
+  color: #ED7D31;/*colorie le texte du titre de niveau 2*/
+}
+.dvti
+{ /* j ai changé le nom de la classe pour simplifier la lecture lors du debug*/
+    position: relative;
+    /*instuctions pour Chrome safari */
+    -webkit-animation-name: Balon;
+    -webkit-animation-delay:5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   /*instuctions pour firefox */
+    -moz-animation-name: Balon;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    /*generique*/
+    animation-name: Balon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #FFFF99; /*couleur de fond*/ 
+    /* OUI je sais les commandes a venir vont ecraser les valeurs precentes  
+    Je perdrais pas ENCORE des points pour avoir laisse des commandes actives 
+       */
+    /*faire le ballon cést facile*/
+    border-radius: 50%;/*7.10.	Ce <div> totalement circulaire deviendra notre balle animée */
+    height: 1.5cm;
+    width: 1.5cm;
+    /*7.11.	Donnez une épaisseur de 2 pixels et une couleur bourgogne à la bordure de la balle.*/
+    border-color:#6B0D0D ;
+    border-style: solid; 
+    border-width: 2px;
+    /*voila une un balon de 3cm*/
+
+}
+.dvti:hover{
+  transition: width,1s,3s, ease-out; /*1ere methode*/
+  transition-property : width;/*proriete de la transition*/
+  transition-delay : .5s ;/*6.3.15.	Après un délai d’attente  d’ ½ seconde*/
+  transition-duration: 3s ;/*6.3.16.	Pendant une durée de 3 secondes, la transition s’effectue*/
+  transition-timing-function : ease-out ;/**/
+  transition: width , 2s , 3s , ease-out; /*1ere methode*/
+  border-radius: 50%;/*change le look en halo circulaire*/
+  border-width: 18px;/*6.3.9.	La bordure s’épaissie du triple de sa largeur*/
+  border-color: purple;/*6.3.11.	La couleur de la bordure devient de couleur pourpre*/
+  border-style: outset;/*6.3.10.	La bordure adopte un style 3D à votre choix*/
+  background-color:black;/*6.3.18.	La couleur de l’arrière-plan du <div> devient noire*/
+ }
+ @-webkit-keyframes Balon
+ { /*Chrome*/
+  0%,100%{ background-color: #0000ff; top:0px; Left: 0px;}
+  10%{ background-color: #7c2d22; top:600px; Left: 400px;}
+  20%{ background-color: #013232; top:80px; Left: 450px;}
+  30%{ background-color: #633631; top:600px; Left: 600px;}
+  40%{ background-color: #901725; top:200px; Left: 650px;}
+  50%{ background-color: #831856; top:600px; Left: 700px;}
+  60%{ background-color: #490353; top:350px; Left: 725px;}
+  70%{ background-color: #FF00FF; top:600px; Left: 750px;}
+  80%{ background-color: #fe0076; top:500px; Left: 760px;}
+  90%{ background-color: #51FF00; top:600px; Left: 770px;}
+
+}
+@-moz-keyframes Balon
+ { /*firefox*/
+  0%,100%{ background-color: #0000ff; top:0px; Left: 0px;}
+  10%{ background-color: #7c2d22; top:600px; Left: 400px;}
+  20%{ background-color: #013232; top:80px; Left: 450px;}
+  30%{ background-color: #633631; top:600px; Left: 600px;}
+  40%{ background-color: #901725; top:200px; Left: 650px;}
+  50%{ background-color: #831856; top:600px; Left: 700px;}
+  60%{ background-color: #490353; top:350px; Left: 725px;}
+  70%{ background-color: #FF00FF; top:600px; Left: 750px;}
+  80%{ background-color: #fe0076; top:500px; Left: 760px;}
+  90%{ background-color: #51FF00; top:600px; Left: 770px;}
+}
+@keyframes Balon
+ { /*Generiques*/
+  /* position/duree en %
+                      { coprs des operations
+                          methode background-color:
+                            parametre couleur: #0000ff;
+                            parametre position Y: top:0px; 
+                            parametre position X: Left: 0px;
+                      } 
+   */
+  0%,100%{ background-color: #0000ff; top:0px; Left: 0px;}
+  10%{ background-color: #7c2d22; top:600px; Left: 400px;}
+  20%{ background-color: #013232; top:80px; Left: 450px;}
+  30%{ background-color: #633631; top:600px; Left: 600px;}
+  40%{ background-color: #901725; top:200px; Left: 650px;}
+  50%{ background-color: #831856; top:600px; Left: 700px;}
+  60%{ background-color: #490353; top:350px; Left: 725px;}
+  70%{ background-color: #FF00FF; top:600px; Left: 750px;}
+  80%{ background-color: #fe0076; top:500px; Left: 760px;}
+  90%{ background-color: #51FF00; top:600px; Left: 770px;}
+}

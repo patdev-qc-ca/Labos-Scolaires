@@ -1,0 +1,342 @@
+0.	Prénom :		Nom :	
+Date de remise :	Sam. 			   2022  16h	Groupe :	F.C.-STI-7   CW1-135
+CONCEPTION DE SITES WEB – 420-135-GR
+TRAVAIL  PRATIQUE WEB-08 (TP-Web-08)
+1.	Préparation pour ce CW1-TP-WEB-08-H22
+Notes :	Avant de commencer à réaliser le contenu de ces directives de cette section 0 (zéro), lisez-les une fois au complet sans rien faire.  Puis  reprenez la lecture une seconde fois et procédez.
+La majorité voir la totalité des concepts nécessaires pour réaliser ce TP se situe dans vos « Notes de cours ».
+1.1.	Ce Travail pratique doit se réaliser SEUL (E).  Attention au plagiat !
+1.2.	Dans votre Portable, créez un Dossier de Remise pour ce CW1-TP-WEB-8-H22.  Nommez-le comme ce-ci :
+VotreNomFamille-CW1-TP-WEB-8-H22	  Exemple : Beauregard-CW1-TP-WEB-8-H22     à la place de mon nom, inscrivez le vôtre !
+Attention !  N’insérez aucun espace dans le nom de votre « Dossier de Remise ».  Voir illustration, en bas de cette page-ci
+1.3.	Dans votre Dossier de Remise, créer le sous-dossier : ResponsiveD_TonPrenom
+1.4.	Renommez ce fichier-ci, comme ceci :
+VotreNomFamille-Consignes-CW1-TP-WEB-8.docx         Exemple :  Beauregard-Consignes-CW1-TP-WEB-8.docx  	   inscrivez votre nom
+1.5.	Dans votre Dossier de Remise, insérez: 
+	ce fichier-ci (avec le nouveau nom voir No 0.4)  contenant les instructions de ce TP-WEB-8
+1.6.	Dans votre dossier ResponsiveD_TonPrenom, créer le sous-dossier : STYLES
+1.7.	Dans votre sous-dossier : « STYLES », insérez tous les fichiers .css de ce TP-WEB-8
+contenant le code de tous vos programmes CSS
+1.8.	Dans votre dossier ResponsiveD_TonPrenom, créer le sous-dossier : IMAGES
+1.9.	Dans votre sous-dossier : « IMAGES », insérez tous les fichiers .jpg, ou .png de ce TP-WEB-8
+1.10.	Lorsque tous les fichiers et sous-dossiers sont insérés dans votre Dossier de Remise, zippez   le Dossier de Remise.  Attention !  J’ai bien dit : « Zippez le Dossier »  et non le contenu du dossier.
+Si vous ne saisissez pas la nuance, demandez à votre prof de vous expliquer, avant de procéder.  Cela vous évitera de perdre des points inutilement, pour de simples questions de procédures.  Mais sachez que si les procédures de remise ne sont pas parfaitement respectées vous perdrez des points.
+1.11.	Remettez dans LEA, avant la date d’échéance, votre Dossier de Remise zippé, dans la section : LEA / TRAVAUX /CW1-TP-H22 / CW1-TP-WEB-8-H22 .  
+Vous devez zipper en format :  .zip  seulement.
+1.12.	Si vous avez de la difficulté avec un numéro, laissez-le temporairement, commencez le numéro suivant, puis, revenez plus tard au numéro où avez éprouvé des difficultés.
+ 
+1.13.	Une lecture attentive complète de la Web-Leçon-8  est incontournable pour bien réus-sir.
+Note : En tout temps, dans votre code HTML et CSS, portez une attention particulière à vos indentations.   
+Aussi, assurez-vous que vos balises entrantes et sortantes soient bien alignées verticalement.
+
+
+
+
+
+
+
+
+
+
+2.	Description sommaire du TP-WEB-8
+Vous devez effectuer une page Web Responsive Design dont le contenu et les dimensions des éléments devront s’adapter aux écrans de trois types de périphériques, soit :
+l’Ordinateur portable, la Tablette électronique et le Téléphone cellulaire. 
+Pour bien saisir ce que vous devez faire, il vous serait très fortement suggéré de lire la totalité des consignes de ce TPWEB-8, une fois, sans rien faire.  Puis, reprenez la lecture et procédez.
+Vous devrez :
+2.1.	Être originale, bâtir avec rigueur, et rendre votre page Web attractive.
+2.2.	Tout ce qui peut être géré à l’aide du concept « FlexBox doit l’être.  
+2.3.	Au-delà de l’application du concept « FlexBox, vous devez apporter votre créativité  personnelle à la construction du site. Cela étant, bien sûr, tout ne peut pas se faire uniquement à l’aide du concept « FlexBox »mais ce qui peut l’être doit l’être. 
+2.4.	Les standards à privilégier sont ceux que vous retrouvez dans les Web-Leçons.  Par exemple, les différentes largeurs associées aux trois catégories d’écran que l’on code dans les media screen  DOIVENT  être celles inscrites dans les Web-Leçons.  Ceci n’est qu’un exemple parmi plusieurs plusieurs autres que vous devrez respecter.
+2.5.	Chaque périphérique (cellulaire, tablette, grand écran ) devra posséder ses propres styles.  Cha-cun des périphériques devra se distinguer très nettement par rapport aux deux autres.  Les dif-férences devront être évidentes concernant :
+ 
+2.5.1.	les bordures 3D  (coins arrondis, couleurs)
+2.5.2.	les couleurs des polices, 
+2.5.3.	les ombrages, 
+2.5.4.	les arrière-plans, 
+2.5.5.	les google-font utilisés,
+2.5.6.	les conteneurs
+2.5.7.	etc. etc. etc.
+ 
+Note : Vous serez évalué sur votre originalité et sur votre créativité.  Votre page Web devra être attrac-tive !
+2.6.	Vous devez respecter les trois dispositions de la page Web décrites dans ce document, se-lon qu’elle sera visionnée : 
+2.6.1.	sur un écran d’ordinateur portable,
+2.6.2.	sur un écran de tablette électronique
+2.6.3.	sur un écran de téléphone cellulaire. 
+2.7.	Vous devez respecter avec précision 
+ 
+2.7.1.	le placement des objets HTML
+2.7.2.	l’alignement correct selon les plans
+2.7.3.	les dimensions des objets HTML.
+ 
+qui vous sera soumis à l’intérieur desdites consignes de ce TP-Web-08
+2.8.	Tous les conteneurs (sauf <body>) de votre page Web devront posséder une bordure.
+Cela permettra au correcteur de bien visualiser les limites et l’adaptation de chacun des con-teneurs, et ce, pour les trois grandeurs d’écran.
+2.9.	Dans le CSS, pour tous les Conteneurs, en /* commentaire */ préciser de quel Conteneur il s’agit.  Car  .div_a  ou  .div_4 ce n’est pas précis.  En  /* commentaire */ décrivez sommai-rement le Contenu du Conteneur.  À moins que le nom de la class associée au Conteneur soit très signifiant.
+2.10.	*** Pour réaliser ce TP-WEB-8, vous devrez OBLIGATOIREMENT :
+2.10.1.	configurer le « viewport » dans le <head>, 
+2.10.2.	dimensionner les éléments en « pourcentage », pour ce qui concerne les lar-geurs
+2.10.3.	utiliser Trois ( 3 )  « Média-Queries »  (soit un par type de périphérique).  
+Trois éléments essentiels dans le Responsive Design.
+Si l’un ou l’autre des trois éléments de ce numéro 1.6 est manquant, cela représente une perte de points de l’ordre de 33 1/3 %
+2.11.	Le contenu des conteneurs et les conteneurs eux-mêmes ne doivent pas empiéter sur les autres conteneurs
+2.12.	La largeur des conteneurs sur cellulaire doit être la pleine largeur du cellulaire
+2.13.	La hauteur de tous les conteneurs sur cellulaires doit faire en sorte de permettre de voir la totalité de leur contenu.
+Vous devez maintenir les bonnes proportions pour certaines images; exemple : un visage, une guitare, etc.  Le maintien de proportion n’est pas important pour une image de ciel, de mer, de plage de sable, etc. 
+Le concept de « Responsive Design » concerne la largeur.  
+2.14.	Parmi les atouts intéressants que l’on peut mettre à profit parfois, pour nous aider à posi-tionner certains objets sur une page Web : il y a les valeurs « négatives » que l’on peut affec-ter à certains paramètres CSS comme :  « margin », « top », etc.  Parfois, ça peut dépanner.
+ 
+3.	Plan des trois dispositions selon les périphériques utilisés.  Portez attention aux info-bulles !
+3.1.	  Plan de la page Web sur un écran d’ordinateur portable.  Ce plan n’est pas à l’échelle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.2.	Plan de la page Web sur un écran de Tablette électronique.  Ce plan n’est pas à l’échelle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+3.3.	Plan de la page Web sur un écran de Cellulaire.  Ce plan n’est pas à l’échelle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suggestion :  Concernant l’affichage, si jamais vous rencontrez la difficulté suivante, à savoir un mauvais alignement d’un conteneur par rapport aux autres :
+Nous voudrions que la partie supérieure du conteneur bleu
+soit alignée avec celles du conteneur vert et mauve.
+Proposition approche CSS, à essayer avec le conteneur bleu:
+display : inline-block;  suivi d’une largeur en % pour le conteneur bleu
+ou
+vertical-align : top ;  sur le conteneur bleu
+Ce n’est pas une garantie à 100 %, que cela résoudra le problème, ce serait cependant intéressant à ten-ter.
+Sinon,  si vous programmez en  « PRO », utilisez des propriétés  FlexBox.  😉
+ 
+4.	Descriptions des éléments des Plans	(Dû au Responsive Design, tous les conteneurs ne sont pas visibles sur tous les écrans)
+4.1.	Le conteneur No 1
+4.1.1.	Conteneur HTML de type : <header>.
+<header> est le nom d’une balise html que vous devez OBLIGATOIREMENT utiliser.  Vous ne devez pas utiliser un conteneur <div> que vous associeriez à une classe nommée :  .header.
+Le <header> fonctionne exactement comme un conteneur de type <div>.  Son nom indique qu’il sera situé dans le haut de son conteneur parent, habituellement : <bo-dy>.  	<header> signifie : « En-Tête ».  
+À ne pas confondre avec la balise <head>.  Cette dernière a comme conteneur pa-rent la balise <html>.  La balise <head> sert à insérer du code de paramétrage.  Le <head>, c’est un peu la salle des machines d’un site Web.  Son contenu n’est pas vi-sible aux internautes.  Donc, vous constatez que <header>  et  <head>, c’est très différent.
+La balise <header>, elle, se situe à l’intérieur de son parent <body>.  Son contenu est totalement visible pour les internautes.  Et comme son nom l’indique, ce conte-neur est situé dans le haut de <body>
+4.1.2.	Le <header> doit être positionné tout en haut du <body>, à l’aide, entre autres, de la propriété : « top » affectée à 0  et peut-être aussi à l’aide de « left ».
+4.1.3.	Le <header> doit avoir une toute petite marge extérieure de tous les côtés.
+4.1.4.	La balise <header> doit être une balise enfant du conteneur : <body>
+4.1.5.	Cet élément doit s’étendre sur toute la largeur du conteneur <body>
+4.1.6.	Le <header> doit avoir une position fixe.  C’est-à-dire que même si l’on utilise une barre de défilement, le <header> doit demeurer visible dans le haut de l’écran.
+4.1.7.	Lorsque les internautes défileront, sur votre site Web, vers le bas ( down scrolling), le <header> doit demeurer visible et TOUS les autres objets de la page devront passer en dessous du <header> avant de disparaître de la page.  Je dis bien : « en dessous ».
+4.1.8.	Il contiendra la banderole verte du : « Cégep vert ».
+Note : Vous trouverez cette banderole dans le même dossier que celui contenant ce document-ci.  Son nom : bandeau-page-cegep-vert.jpg
+4.1.9.	Vous avez une petite idée très approximative pour le moment, de la dimension de la surface de <header>,  via les plans de la page Web, situés dans la section 2 de ce document-ci.  Allez visionner.
+Cependant, pour les mesures plus adaptées, vous devrez vous ajuster en cours de construction de votre page Web. Vous devrez peut-être revoir les dimensions de votre conteneur <header>
+4.1.10.	visionner les plans de la page Web, dans la section 2 de ce document-ci, pour don-ner une première dimension à ce conteneur No 1.  Vous réajusterez en cours de construction, les dimensions de ce conteneur 1, si besoin il y a.
+4.1.11.	Je ne mesurerai pas avec une règle ultra précise.  Le correcteur désire que le plan de vos pages soit à l’image de ce que vous retrouvez dans la section 2, de ce docu-ment-ci.
+4.2.	Le Conteneur No 2
+4.2.1.	Ce Conteneur HTML est de type : <nav>  	(nav comme dans navigation)
+4.2.2.	Visionner les plans de la page Web, dans la section 2 de ce document-ci, pour don-ner une première dimension à ce conteneur No 2.  Vous réajusterez en cours de construction, les dimensions de ce conteneur 2, si besoin il y a.
+4.2.3.	Ce <nav> doit être situé sous le conteneur <header>	(voir les plans dans la section 2)
+4.2.4.	Ce <nav> doit avoir une position fixe.
+4.2.5.	Ce <nav> doit avoir comme parent : <body>
+4.2.6.	Ce nav contiendra  4 <p>.  La disposition de ces <p> changera selon le périphérique utilisé.
+4.2.7.	Ce <nav> doit occuper toute la largeur du conteneur <body>. 
+Voir la disposition sur les plans.  Vous devrez sans doute ajuster la dimension et le positionnement en cours de construction.
+4.2.8.	Ce <nav> ainsi que ses quatre occupants DOIVENT OBLIGATOIREMENT être géré à l’aide du concept « FlexBox », et ce, tant au niveau « Parent » qu’au niveau « En-fant ».  Le « FlexBox » doit gérer autant la dimension des « items enfants » que l’espacement entre ces derniers.  Ici, FlexBox obligatoire.
+Ce n’est pas le seul endroit, où le concept « FlexBox » serait le concept le plus perti-nent à appliquer dans ce TP-Web-08.
+4.3.	Les Conteneurs : A,  B,  C  et  D
+4.3.1.	Quatre conteneurs de type : <p>
+4.3.2.	De même largeur.  Sur grand écran, la largeur de chacun de ces quatre <p> devra représenter 20 % de la largeur du Conteneur Parent Flexible, avec une déclaration CSS de type FlexBox associée aux items flexibles enfants.
+4.3.3.	Situés sur la même ligne seulement pour l’écran de l’ordinateur portable (et plus grand)
+4.3.4.	Ces quatre conteneurs sont des enfants de  la balise <nav>
+4.3.5.	Le contenu de ces quatre <p> est :
+A > mes études    B > mes loisirs    C > ma famille    D > mon travail
+4.3.6.	Le contenu de ces 4 <p> doit être centré  « verticalement »  et  « horizontalement ».
+4.3.7.	Ces quatre <p> doivent être à égale distance les uns des autres
+4.3.8.	Les trois dispositions pour ces quatre <p>  à l’intérieur du <nav>  sont :
+Grand écran : 	les quatre <p> sur une même ligne
+Tablette : 		les quatre <p> sur deux lignes.  Deux  <p> par ligne.
+Cellulaire : 		les quatre <p> en colonne. Un <p> par ligne
+Revoir l’illustration au numéro 2.
+ 
+4.3.9.	Il ne doit pas y avoir aucune autre disposition, et ce, en aucun cas.
+Par exemple, jamais il ne doit y avoir une disposition avec trois <p> sur une ligne
+et un quatrième <p>  sur une deuxième ligne.
+Donc, aucune autre disposition que les trois énumérées au numéro précédent.
+4.3.10.	Ces quatre <p> devront avoir une bordure qui les encadre.
+4.3.10.1.	Ces bordures doivent être stylisées originalement avec le code CSS.
+4.3.11.	Pour affecter des valeurs CSS à ces quatre Conteneurs, vous devrez OBLIGATOIRE-MENT utiliser le sélecteur avancé du chevron fermant ( > ).
+4.3.11.1.	Vous devrez bien commenter vos sélecteurs qui utiliseront ce sélecteur avancé ( /*  */ )
+4.4.	Le Conteneur No 3
+4.4.1.	Ce Conteneur HTML est de type : <div>
+4.4.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 3.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 3, si besoin il y a.
+4.4.3.	Ce conteneur contient une photo provenant du site Web du : Cégep de Granby.
+Pas une banderole ni un logo.  Une photo avec des personnes.   
+4.4.4.	Voir les consignes sur la page 1, concernant le dossier dans lequel enregistrer les images.
+(voir la Note : 0.8  et  0.9 )
+4.4.5.	L’image doit combler 100 % de son Conteneur parent, soit en largeur, soit en hauteur, soit les deux.
+Deux approches possibles pour ce type d’insertion d’image à l’intérieur d’un Conteneur pa-rent.
+Les deux approches n’utilisent pas les mêmes propriétés.  On ne peut ni combiner ni mixer les propriétés de chacune des deux approches.  Ces deux approches ont leurs avantages et leurs inconvénients.
+L’une des deux approches démarrent l’insertion d’une image via la balise HTML : <img>.  L’autre via la propriété CSS : « Background-image ».
+Avec la 1ère approche, vous avez la possibilité de gérer votre image avec des propriétés comme « fit-content ( ) »,  object-fit, etc.
+Avec la 2ième  approche, vous avez la possibilité de gérer votre image avec des propriétés comme « background-size », « background-position », etc.
+Concernant les deux approches, dans l’une comme dans l’autre, des défis se présenteront à vous.  Exemples, vous pourriez vous retrouver avec de petits espaces blancs entre une des bordures du Conteneur parent et l’image, ou encore, une distorsion de l’image (dû au fait que les proportions n’ont pas été maintenues lors du grossissement de l’image), etc.
+Quel que soit l’approche que vous utiliserez, vous devrez la  /* commentez  */  abondam-ment.
+N’oubliez pas le Conteneur doit avoir une bordure visible.  Quoi que vous décidiez de pro-grammer, n’oubliez pas que tout doit être : Responsive Design.  C’est l’objectif principal de ce TP-WEB-8
+4.5.	Le Conteneur No 4
+4.5.1.	Ce Conteneur HTML est de type : <div>
+4.5.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 4.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 4, si besoin il y a.
+4.5.3.	Ce Conteneur contient une « Liste »
+4.5.3.1.	de type ordonné
+4.5.3.2.	avec des chiffres romains majuscules
+4.5.3.3.	Contenu de la liste : La liste de tes cours au Cégep de Granby, pour la ses-sion en cours.
+4.5.3.4.	Titre de la liste : « Cours de TonPrénom  TonNomFamille »  dans un <p>
+exemple :   	Cours de Laurent 	Beauregard
+4.6.	Le Conteneur No 5
+4.6.1.	Ce Conteneur HTML est de type : <div>
+4.6.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 5.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 5, si besoin il y a.
+4.6.3.	Ce conteneur contient une photo libre de droits avec de belles couleurs d’automne    
+4.6.3.1.	Au-dessus de la balise, dans le HTML  et du  sélecteur,  dans le CSS, décrivez brièvement en  /* commentaire  */  l’image de la balise et  du sélecteur.
+4.6.4.	L’image doit combler 100 % de son Conteneur parent, soit en largeur, soit en hauteur, soit les deux.  Voir numéro : 3.4.5.
+4.7.	Le Conteneur No 6
+4.7.1.	Ce Conteneur HTML est de type : <aside>
+4.7.2.	Comme son nom l’indique, il s’agit d’un conteneur que l’on place sur le côté d’une page Web (sur grand écran).  Soit à gauche, soit à droite, soit les deux comme dans la page Web OmniVox du Cégep.  Pour savoir de quel côté le placer, pour ce TP-WEB-8, visionnez les plans au début de  ce document-ci.
+Outre cela, un conteneur <aside> fonctionne comme un conteneur <div>
+Exceptionnellement, ce conteneur sera disposé autrement sur les écrans de cellu-laires (voir la section 2)
+4.7.3.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 6.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 6, si besoin il y a.
+ 
+4.7.4.	Ce conteneur contient une photo libre de droits en lien avec votre loisir à vous   
+4.7.4.1.	Au-dessus de la balise, dans le HTML  et du  sélecteur,  dans le CSS, décrivez brièvement en  /* commentaire  */  l’image de la balise et  du sélecteur.
+4.7.5.	Ce Conteneur « aside » doit être positionné de façon: « Static » sur la page Web.
+4.7.6.	L’image doit combler 100 % de son Conteneur parent    Voir numéro 3.4.5.
+4.7.7.	 Proposition d’outils optionnels concernant la gestion des images.  
+Vous pouvez essayer les propriétés : background-size et object-fit
+avec des valeurs comme : « cover », « contain », . . .
+À essayer.   Documentez-vous sur le net.
+/* Pour ajuster les dimensions et les proportions des images à l’intérieur d’un Conteneur */
+/* Image de mon loisir dans le Conteneur « aside ». Technique :  « Responsive Design »  */
+.img_6_loisir {
+ width: 100%;
+ height: 100%;
+ object-fit: contain ; /*pour que l'image occupe le maximum du div, sur l’une des deux dimen-
+ }			 		 sions, en ajustant l’autre dimension pour maintenir le ratio des propor 					 tions*/
+4.8.	Le Conteneur No 7
+4.8.1.	Ce Conteneur HTML est de type : <div>
+4.8.2.	Visionner les plans de la page Web, pour donner une première dimension à ce con-teneur No 7.  Vous réajusterez en cours de construction, les dimensions de ce con-teneur 7, si besoin il y a.
+4.8.3.	Dans ce conteneur vous insérez OBLIGATOIREMENT du texte bidon de type 
+« Lorem ipsum »  (Recherche Google )   
+4.8.4.	Pour insérer du « Lorem ipsum », à l’intérieur de votre code HTML, il suffit :
+4.8.4.1.	dans votre éditeur « VSC ,  à l’intérieur d’un conteneur comme <div> ou <p>, positionnez votre curseur»
+4.8.4.2.	taper :  lorem  suivi de la touche clavier <tabulation>.  Et voilà, c’est fait.
+4.8.5.	Le texte bidon « Lorem ipsum »   doit déborder  du Conteneur 7
+4.8.5.1.	 Vous pouvez aussi, à l’aide du site Web : https://loremipsum.io/fr/   géné-rer le nombre de paragraphes désirés de «  Lorem ipsum », puis effectuer un copier-coller vers votre code dans VSC.  Il y a beaucoup d’autres sites Web qui traite de « Lorem ipsum » .
+4.8.6.	Vous devez insérer une barre de défilement au Conteneur 7 pour gérer le débor-dement (l’overflow).      Revoir   Web-Leçon-04, pages 33 à 36, section :  « Gestion du déborde-ment ».
+4.9.	Le Conteneur No 8
+4.9.1.	Ce Conteneur HTML est de type : <div>
+4.9.2.	Visionner le plan de la page Web, pour donner une première dimension à ce conte-neur No 8.  Vous réajusterez en cours de construction, les dimensions de ce conte-neur 8, si besoin il y a.
+4.9.3.	Dans ce conteneur vous insérez OBLIGATOIREMENT du texte bidon de type « Lorem ipsum »  (Recherche Google, si besoin il y a)   
+4.9.4.	Le texte bidon « Lorem ipsum »  doit déborder  du Conteneur 8.  Vous pouvez ré-péter l’opération :  taper le mot  « lorem »  suivi de la touche clavier <tabulation> .
+4.9.5.	Vous devez insérer une barre de défilement au Conteneur 8 pour permettre à l’internaute de lire la totalité.
+4.10.	Le Conteneur No 9
+4.10.1.	Ce Conteneur HTML est de type : <footer>  signifiant : « pied de page ».
+4.10.2.	Visionner le plan de la page Web, pour donner une première dimension à ce con-teneur No 9.  Vous réajusterez en cours de construction, les dimensions de ce conteneur 9, si besoin il y a.
+4.10.3.	Contenu :  Auteur de la page Web     Tonprénom  TonNom  
+4.10.3.1.	Le nom de ce cours-ci  avec le code du cours
+4.10.3.2.	Symbole du Copyright (Recherche Google ) , l’année de réalisation
+4.10.3.3.	Le texte  suivant :    Aucune reproduction possible sans autorisation de l’auteur.
+4.10.3.4.	Le logo du Cégep de Granby.  Ce logo seulement dans le conteneur 9.
+4.10.4.	Le contenu doit être dans une police de caractère très originale de type : « Google-Font »
+4.10.5.	L’année de réalisation doit être soulignée.
+Il est à noter, que via le concept du Responsive Design, certains éléments ne figureront pas sur certains périphériques.
+5.	Instructions pour la construction de la page Web de ce TP-WEB-8
+5.1.	Lire attentivement la section 0, au début de ce document-ci
+5.2.	Lire attentivement : la description du sommaire de ce TP-WEB-8, le No 1 de ce document-ci
+5.3.	Visionner attentivement les plans de page Web pour chacun des trois périphériques
+5.4.	Lire attentivement la description des éléments que l’on retrouve dans la page Web de ce TP-WEB-8
+5.5.	Lire attentivement la Web-Leçon-8
+Note :  Avant de commencer ce numéro, lisez-le une fois au complet, sans rien faire.  Puis, re-prenez la lecture une seconde fois et procédez.
+5.6.	Concevez la page Web Responsive Design de ce TP-WEB-8, en utilisant les trois élé-ments indispensables.  Voir : numéro 1.5, à la page 2, de ce document-ci.
+5.7.	Commentez tout le contenu de vos codes : HTML  et  CSS
+5.8.	Le <title> dans votre <head> sera : « Responsive Design ».
+5.9.	Faite en sorte que votre page Web, soit aérée, et ce, peu importe le périphérique (Device)
+5.10.	Tous les conteneurs de votre page Web auront une toute petite marge extérieure  Res-ponsive Design.  Ajustez-vous à l’œil.
+5.11.	Produire le style CSS  selon votre créativité.  Les styles CSS devront différer d’un périphé-rique à l’autre ( Portable, Tablette et Cellulaire ).  Donc, d’un plan de page à un autre.
+ 
+5.12.	Enregistrez votre pgm HTML, sous : index.html
+5.12.1.	Enregistrez votre pgm .html à l’intérieur de votre dossier ResponsiveD_TonPrenom
+5.12.2.	Voir sur la page 1, pour le dossier parent de : ResponsiveD_TonPrenom
+5.13.	Enregistrez votre pgm CSS, sous : ResponsiveD.css
+5.13.1.	Enregistrez votre pgm .css à l’intérieur de votre sous-dossier : Styles
+5.13.2.	Le pgm CSS doit être lié ( <link> ) avec votre pgm HTML 
+5.14.	Publiez votre dossier Responsive_TonPrenom sur le Serveur Hébergeur Web du Cégep
+5.14.1.	Entrez le URL complet de votre page Web dans la case qui suit :	( -20  si ce n’est pas fait )
+
+6.	Comme  « conteneur # » ( exemple :  conteneur 5 ) n’est ni très indicatif ni très précis, vous devez dans un bref commentaire, placé au-dessus de chaque conteneur, indiquez de quel conteneur il s’agit.
+7.	Attention à la qualité du français écrit.
+8.	Dans le tableau d’identification, en haut de la 1ère page de ce document-ci, veuillez remplacer le  x  par le numéro de votre groupe.
+9.	Attention ! Vous ne devez pour aucun des TP-Web de cours me remettre les Web-Leçons.
+Dans le cas contraire, vous pourriez subir une perte de 20 %.  Je ne veux pas recevoir les Web-Leçons.
+10.	Assurez-vous d’avoir lu attentivement tous les COMMUNIQUÉS dans LEA.  Et assurez-vous, après avoir lu les COMMUNQUÉS, de retirer toutes les étoiles jaunes.  Si vous ne voyez pas votre note pour un travail, dans LEA, alors que vous êtes bien certain(ne) d’avoir remis votre travail, la raison pourrait être reliée au fait que vous n’avez pas lu tous les COMMUNIQUÉS.
+11.	Si votre OmniVox est défectueux, qu’il n’enlève pas les étoiles jaunes, informez-en le CTIC.
+12.	Il pourrait arriver qu’à l’intérieur d’un COMMUNIQUÉ, on vous avise d’une modification que vous devez réaliser dans un TP.  Dans un tel cas, vous devez appliquer ladite modification avant de me remettre votre TP.
+13.	Je ne corrige que la dernière remise des TP-Web, Ssi il a été déposé avant la date la plus éloi-gnée de correction ( donc soit le lundi suivant le jour de l’échéance, mais avec une perte de 30 % )
+Si vous ne parvenez pas à retirer les étoiles jaunes ou si vous ne trouvez pas vos Communi-qués, adressez-vous au C.T.i.C., au local  C-232.  Un technicien vous guidera.
+ 
+14.	La date d’échéance de remise de ce TP-Web-08, est : 
+Samedi, le [ Voir : LEA / TRAVAUX ] avant 16h00  dans LEA
+ÉCHÉANCES	PERTES DE POINTS POUR RETARD
+Avant, samedi, [ Voir : LEA / TRAVAUX ] ,   16h00	Aucune perte de points pour retard
+Samedi, [ Voir : LEA / TRAVAUX ] ,  de  16h01   à  23h59	-10 points
+Dimanche, lendemain  [ Voir : LEA / TRAVAUX ]	-20 points
+Lundi,  surlendemain  [ Voir : LEA / TRAVAUX ]	-30 points
+Après lundi,  surlendemain  [ Voir : LEA / TRAVAUX ]
+Donc, à partir du mardi, 	Le travail n’est pas corrigé 
+et vous avez 0  (zéro)
+
+Note :  Il se pourrait qu’une erreur d’inattention se soit glissée par inadvertance dans ce document.  Si tel était le cas, je vous saurais gré d’en informer votre humble serviteur.  Vous pouvez mettre mon erreur en rouge, m’en informer par M.i.O. et m’aviser de vive voix, durant un cours ou en venant à mon bureau ( A-313 ) s.v.p. 
+En vous remerciant grandement !
+FiN

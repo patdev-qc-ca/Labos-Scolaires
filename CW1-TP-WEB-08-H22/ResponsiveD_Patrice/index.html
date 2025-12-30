@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Waechter-Ebling__CW1TP-WEB-08</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+		<link rel="stylesheet" href="./styles/ResponsiveD.css">
+		<link rel="icon" href="./images/patrice.bin">
+        <script src="./scripts/MenuHamburger.js"></script>
+	</head>
+	
+	<body onload="cacherA()" >
+		<header>
+			<h1>Responsive Design</h1> <!--entete personalisée-->
+			<h3>CW1-TP-WEB-08-H22</h3>
+		</header>
+		<!--
+4.3.	Les Conteneurs : A, B, C et D
+4.3.1.	Quatre conteneurs de type : <p>
+4.3.3.	Situés sur la même ligne seulement pour l’écran de l’ordinateur portable (et plus grand)
+4.3.4.	Ces quatre conteneurs sont des enfants de la balise <nav>
+		-->
+		<nav>
+	<!--4.3.5.	Le contenu de ces quatre <p> est :A > mes études    B > mes loisirs    C > ma famille    D > mon travail-->	
+			<p id="a1">mes études</p>	
+			<p id="a2">mes loisirs</p>		
+			<p id="a3">ma famille</p>		
+			<p id="a4">mon travail</p>
+			<div><!-- implentation menu hamburger type input command-->
+				<input type="button" value="MenuHamburger"  onclick="maFunction()">
+                <div id="Clics">
+                    <input type="button" value="mes études" onclick="AllerURL1()">
+                    <input type="button" value="mes loisirs" onclick="AllerURL2()">
+                    <input type="button" value="ma famille" onclick="AllerURL3()">
+                    <input type="button" value="mon travail" onclick="AllerURL4()">
+                </div>
+			</div>
+		</nav>	
+		<!-- Le conteneur "section" sert à loger le contenu principal de la page Web 
+				Seulement un des deux conteneurs <article> contient 5 sous-conteneur <div>-->
+		<section>
+			<article>			
+				<div id="div3">
+				</div>
+				<div id="div4">
+					<ol>
+						<li>Liste des cours de Patrice</li>
+						<ol type="I">
+							<li>MATHÉMATIQUES APPLIQUÉES À L'INFORMATIQUE</li>
+							<li>CONCEPTION DE SITES WEB I</li>
+							<li>PROGRAMMATION ORIENTÉE OBJET</li>
+							<li>INSTALLATION ET CONFIGURATION D'UN POSTE I</li>
+						</ol>
+					</ol>
+				</div>
+				<div id="div5">5</div>
+				<div id="div7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci atque dolore obcaecati odit nihil suscipit in at unde necessitatibus iure distinctio possimus quam minima laudantium tenetur, veritatis voluptatibus veniam?</div>
+				<div id="div8">8</div>
+			</article>
+		<!-- Le conteneur "aside" sert à loger du contenu complémentaire -->
+			<aside>Chez moi!
+			</aside>
+
+		</section>
+		<!-- Le conteneur "footer" sert entre autre à informer l’internaute sur l'auteur du site, le copyright, etc.  -->
+		<footer>
+			<H5>Codé par Patrice Waechter-Ebling 2022 </H5>
+			<H6>étudiant Soutient utilisateurs AEC.LEA3</H6>
+		</footer>
+	</body>
+</html>

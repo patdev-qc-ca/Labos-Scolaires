@@ -1,0 +1,118 @@
+/*Positionne bien le body aux coordonnees (0,0)*/
+body{
+    margin: 0;
+    padding: 0;    
+ /*option pratique si je veut mettre une image qui bouge pas comme arriere plan*/   
+ position:fixed; 
+}
+a[target]{
+   text-decoration: underline;
+}
+a[target="_blank"]{ /* personalisation de l attribut target du hyperlien*/
+    font-weight: bold; /* mets en gras*/
+  }
+h1{
+    color: #2F528F;/*colorie le texte du titre de niveau 1*/
+}
+h2{
+   color: #ED7D31;/*colorie le texte du titre de niveau 2*/
+}
+h3{
+    color: #20BA66;/*colorie le texte du titre de niveau 3*/
+}
+/*Titre de niveau 4 quand la souris ne le survole pas*/
+div>h4{
+    margin-top: 0px; /*ajuste la hauteur du <h4>*/
+    text-align: center;/*Aligne le texte au centre du titre de niveau 4*/
+    color: #94649E; /*colorie en mauve*/
+}
+div + p{ 
+    margin: 3px;/* ai mis la marge externe du paragraphe hors div ici (coder efficacement)*/
+    padding:  4px;
+    color:#6FD2F7;/* applique du bleu pale au 1er <p> de meme niveau que le <div>*/
+}
+ol , li{
+  font-weight:bolder; /*mets les numeros des puce en gras */
+}
+
+.dv_ti li{
+   font-weight:normal; /*contre les autres item des liste en gras*/
+}
+ol{
+    margin-left: -20px;/*aligne les liste sur la bordure orange de <div>*/
+}
+li>span{/*applique du mauve aux items liste sans toucher a la couleur des puces*/
+    color: #94649E;
+}
+/*pseudo code pour gerer le survol de la souris sur le titre de niveau4*/
+h4:hover{
+    color: rgb(107, 13,13); /*rouge bourgogne reference source pour le code couleur
+    https://www.code-couleur.com/dictionnaire/couleur-r.html
+    */
+    font-weight: lighter; /*gras fin*/
+    font-family: 'Modak','Segoe UI', 'Courier New'; /*police google Modak*/
+    text-decoration:underline;/*souligne*/
+    font-size:20px;/*hauteur en pixel de la police importee*/
+    word-spacing: 13px;/*espacement entre les mots*/
+}
+/*
+<div>
+conteneur parent: <body>
+conteuneur grand parent <html>
+reajustement de la propriete width et height pour un meilleur rendu visuel
+*/
+.dv_ti p{
+   margin: 3px;/*marge exterieur a tous les paragraphes dans div*/
+    padding: 4px;/*marge exterieur a tous les paragraphes dans div*/
+    color:#FF78AE ;/*mise en couleur des paragraphe <p>dans div*/
+}
+/* Ici, À l’aide de la technique    ‘’sélection d’un élément par rapport à un autre‘’,
+les déclarations de style sont affectées aux éléments de type : 
+‘’puces ordonnées’’, de 1er niveau, enfant du <div>,  associé à la class : dv_ti  */
+.dv_ti{
+    margin-top: -20px;/*remonte le div de 20px pour l'aligner sous le <H3>*/
+    background-color: #FFFF99; /*couleur de fond*/ 
+    border-color:#ED7D31 ;/*couleur*/
+    width:  280px;/*largeur de <div>*/
+    height:210px;/*hauteur de <div>*/
+    border-radius: 26px;/*rayon de láarrondi pour la bordure*/
+    border-width: 6px; /*epaisseur de la bordure*/
+    border-style: solid; /*style de bordure*/
+}
+.enVert{/* classe qui applique du vert*/
+     color:#18B756;
+}
+#enGras{/* classe qui applique du gras*/
+    font-weight: bold;
+}
+/*ils doivent etre dans cet ordre :Pseudo classes CSS <a> :link, :visited, :hover et :active*/
+a{
+     font-family: Arial, Helvetica, sans-serif; /*police arial*/
+    color:rgba(3, 117, 3, 0.5);/*vert fonce 50% transparence*/
+    font-weight: normal;/*pas de gras sur le lien*/
+    font-style: italic;/* en italique*/
+}
+
+h2>a:visited{
+    color: purple   ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+a:hover {
+ /*   color: rgb(107, 13,13); /*rouge bourgogne reference source pour le code couleur
+    https://www.code-couleur.com/dictionnaire/couleur-r.html
+    */
+    font-weight: lighter; /*gras fin*/
+    font-family: 'Markazi Text','Times New Roman' ,'Courier'; /*police google Markazi*/
+    text-decoration:underline;/*souligne*/
+    font-size:24px;/*hauteur en pixel de la police importee*/
+    letter-spacing: 3px;/*espacement entre les lettres*/
+    color: #FF0066;/*changement de couleur ligne:4.6.5.3.	la couleur de la police de l’hyperlien doit devenir rose très foncé 
+    (en mode # hexadécimal)*/
+     
+}
+a:active{
+   font-weight: bolder;/* gras accentue*/
+  color: rgb(137, 213, 137);/*vert tres pale*/
+     
+}
